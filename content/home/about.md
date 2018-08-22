@@ -30,4 +30,4 @@ weight = 5
 
 # Biography
 
-Lena Smith is a PhD candidate in the Snitkin Lab at the University of Michigan. Her research interests include bacterial genomics and phylogenetics, with a focus on C. difficile genomics.
+Katie Saund is a PhD candidate in the Snitkin Lab at the University of Michigan. Her research interests include bacterial genomics and phylogenetics, with a focus on C. difficile genomics.
