@@ -1,12 +1,5 @@
----
-title: "NKG2D ligand expression in pediatric brain tumors."
-author: "Katie Saund"
-date: "8/28/2018"
-output: html_document
----
-
 +++
-title = "A publication title, such as title of a paper"
+title = "NKG2D ligand expression in pediatric brain tumors."
 
 # Date first published.
 date = "2016-12-01"
