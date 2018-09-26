@@ -5,7 +5,7 @@ title = "NKG2D ligand expression in pediatric brain tumors."
 date = "2016-12-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Haberthur K", "Brennan K", "Hoglund V", "Balcaitis S", "Chinn H","Davis A", "Kreuser S", "Winter C", "Leary SE", "Deutsch GH", "Ellenbogen RG", "Crane CA".]
+authors = ["Haberthur K", "Brennan K", "Hoglund V", "Balcaitis S", "Chinn H","Davis A", "Kreuser S", "Winter C", "Leary SE", "Deutsch GH", "Ellenbogen RG", "Crane CA"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
