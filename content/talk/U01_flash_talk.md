@@ -23,7 +23,7 @@ event_url = ""
 location = "La Jolla, CA"
 
 # Is this a selected talk? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
