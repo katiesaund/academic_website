@@ -12,17 +12,7 @@ draft = false
 authors = ["Katie Saund"]
 
 # Abstract and optional shortened version.
-abstract = "
-C. difficile infections can lead to drastically different outcomes- from a short infection with a full recovery to severe disease with recurrent infections or death. While undoubtedly much of the variation in disease outcomes are due to patient factors, our aim is to identify the bacterial genetic determinants that contribute to variable patient outcomes. 
-
-At this point, the challenge of predicting patient outcome from the WGS of the infection strain is too complex, however we believe we can make meaningful progress towards this goal because of the promising results from our bacterial genome-wide association study. 
-
-We have a cohort of over 100 clinical C. difficile isolates which have been thoroughly phenotyped in a battery of in vitro assays. These phenotypes are likely directly relevant to disease and transmission, such as toxin production and germination efficiency. 
-
-Using a combination of the genetic variation encoded in the whole sequences of these isolates & the in vitro phenotypes, we performed multiple different association tests to identify the genetic loci correlated with the phenotypes.
-
-The results from our study appear robust as we have recapitulated known genotype-phenotype relationships, such as tcdA mutations associating with toxin activity and spo0A associating with spore viability. Critically, we have identified many novel loci associated with these clinically relevant phenotypes. We intend to validate some of these new associations via genetic manipulations in C. difficile laboratory strains. 
-"
+abstract = "*C. difficile* infections can lead to drastically different outcomes: from a short infection with a full recovery to severe disease with recurrent infections or death. While undoubtedly much of the variation in disease outcomes are due to patient factors, our aim is to identify the bacterial genetic determinants that contribute to variable patient outcomes. At this point, the challenge of predicting patient outcome from the WGS of the infection strain is too complex, however we believe we can make meaningful progress towards this goal because of the promising results from our bacterial genome-wide association study. We have a cohort of over 100 clinical *C. difficile isolates* which have been thoroughly phenotyped in a battery of in vitro assays. These phenotypes are likely directly relevant to disease and transmission, such as toxin production and germination efficiency. Using a combination of the genetic variation encoded in the whole sequences of these isolates & the in vitro phenotypes, we performed multiple different association tests to identify the genetic loci correlated with the phenotypes. The results from our study appear robust as we have recapitulated known genotype-phenotype relationships, such as *tcdA* mutations associating with toxin activity and *spo0A* associating with spore viability. Critically, we have identified many novel loci associated with these clinically relevant phenotypes. We intend to validate some of these new associations via genetic manipulations in *C. difficile* laboratory strains."
 abstract_short = ""
 
 # Name of event and optional event URL.
