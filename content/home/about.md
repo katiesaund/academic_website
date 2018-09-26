@@ -12,7 +12,8 @@ weight = 5
   interests = [
     "microbiology",
     "genomics",
-    "phylogenetics"
+    "phylogenetics", 
+    "R"
   ]
 
 # List your qualifications (such as academic degrees).
