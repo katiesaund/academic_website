@@ -6,7 +6,8 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "www.katiesaund.com/"
+#baseurl = "www.katiesaund.com/"
+baseurl = "/"
 relativeurls = true # added on 2018-09-25 to try to get logo and avatar to work correctly
 canonifyurls = false # added on 2018-09-25 to try to get logo and avatar to work correctly
 
