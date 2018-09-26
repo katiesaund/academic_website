@@ -6,7 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "www.katiesaund.com/"
+#baseurl = "www.katiesaund.com/"
+baseurl = "/"
+relativeurls = true # added on 2018-09-25 to try to get logo and avatar to work correctly
+canonifyurls = false # added on 2018-09-25 to try to get logo and avatar to work correctly
 
 # Title of your site
 title = "Katie Saund"
@@ -290,15 +293,15 @@ enableGitInfo = false
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+#[[menu.main]]
+#  name = "Teaching"
+#  url = "#teaching"
+#  weight = 6
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 5
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
