@@ -53,7 +53,7 @@ url_source = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
-{{< youtube w7Ft2ymGmfc >}}
+# {{< youtube w7Ft2ymGmfc >}}
 
 # Does the content use math formatting?
 math = false
