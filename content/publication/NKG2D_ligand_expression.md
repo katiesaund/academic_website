@@ -18,8 +18,8 @@ authors = ["Haberthur K", "Brennan K", "Hoglund V", "Balcaitis S", "Chinn H","Da
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *CANCER BIOLOGY & THERAPY*."
-publication_short = "In *Cancer Biol Ther*"
+publication = "*CANCER BIOLOGY & THERAPY*."
+publication_short = "*Cancer Biol Ther*"
 
 # Abstract and optional shortened version.
 abstract = "Adult brain tumors establish an immunosuppressive tumor microenvironment as a modality of immune escape, with several immunotherapies designed to overcome this barrier. However, the relationship between tumor cells and immune cells in pediatric brain tumor patients is not as well-defined. In this study, we sought to determine whether the model of immune escape observed in adult brain tumors is reflected in patients with pediatric brain tumors by evaluating NKG2D ligand expression on tissue microarrays created from patients with a variety of childhood brain tumor diagnoses, and infiltration of Natural Killer and myeloid cells. We noted a disparity between mRNA and protein expression for the 8 known NKG2D ligands. Surprisingly, high-grade gliomas did not have increased NKG2D ligand expression compared to normal adjacent brain tissue, nor did they have significant myeloid or NK cell infiltration. These data suggest that pediatric brain tumors have reduced NK cell-mediated immune surveillance, and a less immunosuppressive tumor microenvironment as compared to their adult counterparts. These data indicate that therapies aimed to improve NK cell trafficking and functions in pediatric brain tumors may have a greater impact on anti-tumor immune responses and patient survival, with fewer obstacles to overcome."
