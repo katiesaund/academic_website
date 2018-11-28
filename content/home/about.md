@@ -31,4 +31,4 @@ weight = 5
 
 # Biography
 
-Katie Saund is a PhD candidate in the Snitkin Lab at the University of Michigan. Her research interests include bacterial genomics and phylogenetics, with a focus on *C. difficile.*
+I'm a PhD candidate in the Snitkin Lab at the University of Michigan. My research interests include bacterial genomics and phylogenetics, with a focus on *C. difficile.*
