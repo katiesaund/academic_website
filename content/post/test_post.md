@@ -73,8 +73,12 @@ Before updating the framework, it is recommended to make a backup of your entire
 
 By default, Academic is installed as a Git submodule which can be updated by running the following command:
 
-```bash
-git submodule update --remote --merge
+```r
+require(ggplot2)
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point() +
+  geom_smooth(method = "lm") + 
+  scale_color_manual(values = c("#3B9AB2", "#E4B80E", "#F21A00"))
 ```
 
 ## License
