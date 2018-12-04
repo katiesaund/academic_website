@@ -21,7 +21,7 @@ copyright = "&copy; 2018"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
 
