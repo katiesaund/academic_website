@@ -39,7 +39,7 @@ summary = ""
 
 ## Adding R code: example
 
-```r
+```{r, eval=TRUE}
 require(ggplot2)
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point() +
@@ -47,15 +47,15 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   scale_color_manual(values = c("#3B9AB2", "#E4B80E", "#F21A00"))
 ```
 
-```{r, message = FALSE}
+```{r, message = FALSE, eval = TRUE}
 # LIBRARIES -------------------------------------------------------------------#
 library(tidyverse)
 library(tidytext)
 library(lubridate)
 ```
 
-```{r}
+```{r, eval = TRUE}
 # IMPORT DATA -----------------------------------------------------------------#
 raw_metadata <- read_csv(file ="medium_datasci.csv", quote='"')
-head(raw_metadata)
+nrow(raw_metadata)
 ```
