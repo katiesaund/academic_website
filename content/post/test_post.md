@@ -1,16 +1,16 @@
----
-title = "Academic: the website designer for Hugo"
-subtitle = "Create a beautifully simple website in under 10 minutes :rocket:"
++++
+title = "Test: posting R code on website"
+subtitle = ""
 
-date = 2016-04-20T00:00:00
-lastmod = 2018-01-13T00:00:00
+date = 2018-12-04T00:00:00
+lastmod = 2018-12-04T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Katie Saund"]
 
-tags = ["Academic"]
-summary = "Create a beautifully simple website or blog in under 10 minutes."
+tags = ["RStats"]
+summary = ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -35,43 +35,9 @@ summary = "Create a beautifully simple website or blog in under 10 minutes."
 
 # Set captions for image.
 
----
++++
 
-## Install
-
-You can choose from one of the following four methods to install:
-
-* one-click install using your web browser (recommended)
-* install on your computer using Git with the Command Prompt/Terminal app
-* install on your computer by downloading the ZIP files
-* install on your computer with RStudio
-
-### Quick install using your web browser
-
-
-### Install with Git
-
-
-### Install with ZIP
-
-1. [Download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip) and extract *Academic Kickstart*
-2. [Download](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract the *Academic theme* to the `themes/academic/` folder from the above step
-
-### Install with RStudio
-
-[View the guide to installing Academic with RStudio](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
-
-## Quick start
-
-
-
-## Updating
-
-Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) to help keep track of updates and check out the [release notes](https://sourcethemes.com/academic/updates) prior to updating your site.
-
-Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your `themes/academic` directory) and record your current version number.
-
-By default, Academic is installed as a Git submodule which can be updated by running the following command:
+## Adding R code: example
 
 ```r
 require(ggplot2)
@@ -81,8 +47,15 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   scale_color_manual(values = c("#3B9AB2", "#E4B80E", "#F21A00"))
 ```
 
-## License
+```{r, message = FALSE}
+# LIBRARIES -------------------------------------------------------------------#
+library(tidyverse)
+library(tidytext)
+library(lubridate)
+```
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license.
+```{r}
+# IMPORT DATA -----------------------------------------------------------------#
+raw_metadata <- read_csv(file ="medium_datasci.csv", quote='"')
+head(raw_metadata)
+```
