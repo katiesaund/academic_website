@@ -22,18 +22,18 @@ summary = "Create a beautifully simple website or blog in under 10 minutes."
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
+#[image]
   # Caption (optional)
-  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
+#  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+#  focal_point = ""
 
   # Show image only in page previews?
-  preview_only = false
+#  preview_only = false
 
-# Set captions for image gallery.
+# Set captions for image.
 
 +++
 
@@ -67,7 +67,7 @@ Key features:
 
 Academic is available in different color themes and font themes.
 
-{{< gallery >}}
+# {{< gallery >}}
 
 ## Ecosystem
 
