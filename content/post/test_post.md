@@ -1,4 +1,4 @@
-+++
+---
 title = "Academic: the website designer for Hugo"
 subtitle = "Create a beautifully simple website in under 10 minutes :rocket:"
 
@@ -35,7 +35,7 @@ summary = "Create a beautifully simple website or blog in under 10 minutes."
 
 # Set captions for image.
 
-+++
+---
 
 ## Install
 
