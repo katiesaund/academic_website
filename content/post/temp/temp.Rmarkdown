@@ -1,0 +1,12 @@
+
+---
+title = "Rmarkdown"
+
+---
+
+``` {r}
+require(ggplot2)
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point() +
+  geom_smooth(method = "lm") + 
+  scale_color_manual(values = c("#3B9AB2", "#E4B80E", "#F21A00"))
