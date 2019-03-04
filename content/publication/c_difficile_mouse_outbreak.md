@@ -2,7 +2,7 @@
 title = "Outbreak of murine infection with Clostridium difficile associated with the administration of a pre- and peri-natal methyl-donor diet."
 
 # Date first published.
-date = "2019-06-01"
+date = "2019-03-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Mau T", "Eckley S", "Bergin I", "Saund K", "Villano J", "Vendrov K", "Snitkin E", "Young V", "Yung R"]
