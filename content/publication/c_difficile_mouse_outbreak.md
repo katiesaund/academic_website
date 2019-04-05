@@ -37,7 +37,7 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = "files/mouse_outbreak.pdf"
+#url_pdf = "files/mouse_outbreak.pdf"
 url_preprint = "https://www.biorxiv.org/content/10.1101/565762v1"
 url_code = ""
 url_dataset = ""
@@ -46,6 +46,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = "https://msphere.asm.org/content/4/2/e00138-19"
+url_custom = [{icon = "file", icon_pack = "fa", name = "PDF", url = files/mouse_outbreak.pdf}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
