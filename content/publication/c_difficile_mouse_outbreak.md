@@ -37,16 +37,15 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = ""
+url_pdf = "https://github.com/katiesaund/academic_website/blob/master/static/files/mouse_outbreak.pdf"
+url_preprint = "https://www.biorxiv.org/content/10.1101/565762v1"
 url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
-# https://www.tandfonline.com/doi/full/10.1080/15384047.2016.1250047
+url_source = "https://msphere.asm.org/content/4/2/e00138-19"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
