@@ -37,7 +37,7 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = "https://github.com/katiesaund/academic_website/blob/master/static/files/mouse_outbreak.pdf"
+url_pdf = "files/mouse_outbreak.pdf"
 url_preprint = "https://www.biorxiv.org/content/10.1101/565762v1"
 url_code = ""
 url_dataset = ""
