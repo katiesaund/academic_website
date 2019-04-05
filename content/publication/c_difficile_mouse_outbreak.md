@@ -46,7 +46,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = "https://msphere.asm.org/content/4/2/e00138-19"
-url_custom = [{icon = "file", icon_pack = "fa", name = "PDF", url = files/mouse_outbreak.pdf}]
+links = [{icon_pack="fa", icon="file", name="PDF", url="files/mouse_outbreak.pdf"}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
