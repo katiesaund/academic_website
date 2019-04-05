@@ -37,7 +37,7 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://github.com/katiesaund/academic_website/blob/master/static/files/nkg2d.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -45,8 +45,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
-# https://www.tandfonline.com/doi/full/10.1080/15384047.2016.1250047
+url_source = "https://www.tandfonline.com/doi/full/10.1080/15384047.2016.1250047"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
