@@ -61,7 +61,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-#image = "glioma_wikipedia_commons.jpg"
-#caption = "Glioma of the left parietal lobe. CT scan with contrast enhancement. Source: https://commons.wikimedia.org/wiki/File:Glioma.gif"
+image = "mouse_outbreak_figure.jpg"
+#caption = "Fig. 3. Phylogenetic relationship between the mouse outbreak strain and representative C. difficile isolates."
 
 +++
