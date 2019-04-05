@@ -37,7 +37,7 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = "https://github.com/katiesaund/academic_website/blob/master/static/files/nkg2d.pdf"
+url_pdf = "files/nkg2d.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
