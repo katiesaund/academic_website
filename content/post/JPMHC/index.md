@@ -45,6 +45,11 @@ Try to insert image here:
 {{< figure src="https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.png" >}}
 {{< figure src="https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg" >}}
 
+How about this: 
+![alternative text for search engines](/2019-06-04_NASDAQ_vs_SP500.jpg)
+![alternative text for search engines](/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg)
+![alternative text for search engines](/master/static/img/2019-06-04_NASDAQ_vs_SP500.jpg)
+![alternative text for search engines](https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg)
 
 Did the figure appear?
 
