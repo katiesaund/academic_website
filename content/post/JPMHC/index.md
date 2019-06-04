@@ -60,4 +60,4 @@ How about this:
 Did the figure appear?
 
 
-
+{{< figure src="/img/2019-06-04_NYSE_vs_SP500.png" class="img-lg">}}
