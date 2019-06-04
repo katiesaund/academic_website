@@ -39,7 +39,13 @@ The analysis presented in the accompanying [**R Code**](https://github.com/katie
 
 ## Conclusions: If JPMHC affects biotech stocks, its within the noise of the market
 
+(/img/2019-06-04_NYSE_vs_SP500.png)
+
 Try to insert image here: 
+
+(/img/2019-06-04_NYSE_vs_SP500.jpg)
+
+or here
 
 {{< figure library="1" src="2019-06-04_NASDAQ_vs_SP500.jpg">}}
 {{< figure src="https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.png" >}}
