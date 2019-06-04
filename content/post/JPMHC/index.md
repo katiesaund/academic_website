@@ -41,7 +41,7 @@ The analysis presented in the accompanying [**R Code**](https://github.com/katie
 
 Try to insert image here: 
 
-{{< figure library="1" src="2019-06-04_NASDAQ_and_NYSE_biotech_indices.pdf" title="A caption" >}}
+{{< figure library="1" src="2019-06-04_NASDAQ_and_NYSE_biotech_indices.jpg" title="A caption" >}}
 
 Did the figure appear?
 
