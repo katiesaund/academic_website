@@ -1,8 +1,7 @@
 ---
 title: 'J. P. Morgan Healthcare Conference'
 subtitle: 'Evaluating correlation between JPMHC week and healthcare stock prices'
-authors: 
-authors = ["Katie Saund"]
+authors: ["Katie Saund"]
 tags: []
 categories: []
 date: "2019-06-04T00:00:00Z"
