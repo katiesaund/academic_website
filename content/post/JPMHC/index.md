@@ -41,9 +41,9 @@ The analysis presented in the accompanying [**R Code**](https://github.com/katie
 
 Try to insert image here: 
 
-{{< figure library="1" src='2019-06-04_NASDAQ_vs_SP500.jpg'>}}
-{{< figure src='https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.png'>}}
-{{< figure src='https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg'>}}
+{{< figure library="1" src="2019-06-04_NASDAQ_vs_SP500.jpg">}}
+{{< figure src="https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.png">}}
+{{< figure src="https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg">}}
 
 
 Did the figure appear?
