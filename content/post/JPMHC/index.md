@@ -12,7 +12,7 @@ draft: false
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-image: []
+image: [2019-06-04_NASDAQ_vs_SP500.jpg]
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
