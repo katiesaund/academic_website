@@ -44,7 +44,7 @@ I downloaded all of the NASDAQ and NYSE stock tickers and subset them to only in
   
 ![Healthcare Sector Stock Fluctuations: JPMHC Week](img/2019-06-04_stock_fluctuations_during_JPMHC.jpg)
   
-This isn't at all what I was expected. I hypothesized that for many stocks its price range during JPMHC week would be greater then its price range most other weeks of the year. My intuition was way off. The fluctuations in price during JPMHC week actually pretty small: from 1983 ~ 2013 JPMHC week stocks had less flucations than half the year! It's only been in the last few years that JPMHC week healthcare stock fluctuations have become larger and larger compared to the rest of the year. Perhaps this trend is due to increasing size and coverage of the conference?  
+This isn't at all what I was expecting. I hypothesized that for many stocks its price range during JPMHC week would be greater then its price range most other weeks of the year. My intuition was way off. The fluctuations in price during JPMHC week actually pretty small: from 1983 ~ 2013 JPMHC week stocks had less flucations than half the year! It's only been in the last few years that JPMHC week healthcare stock fluctuations have become larger and larger compared to the rest of the year. Perhaps this trend is due to increasing size and coverage of the conference?  
 
 ### Does the biotech sector outperform the S&P 500 during JPM week more often than is expected by chance?
 I downloaded historical stock prices for three indices: NYSE Biotech ("BTK"), NASDAQ Biotech ("NBI"), and S&P500 ("SPY") from 2010-2018, which is a date range with data from all three indices.  
