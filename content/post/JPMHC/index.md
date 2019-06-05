@@ -41,24 +41,13 @@ The analysis presented in the accompanying [**R Code**](https://github.com/katie
 
 Try to insert image here: 
 
-1
+
 ![NYSE Biotech Index vs S&P500 Index](/img/2019-06-04_NYSE_vs_SP500.jpg)
-1
 
-2
-![NYSE Biotech Index vs S&P500 Index](www.katiesaund.com/post/jpmhc/img/2019-06-04_NASDAQ_vs_SP500.jpg)
-2
 
-3
-![NYSE Biotech Index vs S&P500 Index](www.katiesaund.com/static/img/2019-06-04_NASDAQ_vs_SP500.jpg)
-3
-
-4
-![NYSE Biotech Index vs S&P500 Index](/static/img/2019-06-04_NYSE_vs_SP500.jpg)
-4
-
-5
-![NYSE Biotech Index vs S&P500 Index](/2019-06-04_NYSE_vs_SP500.jpg)
-5
+![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NASDAQ_and_NYSE_biotech_indices.jpg)
+![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NASDAQ_vs_SP500.jpg)
+![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NYSE_vs_SP500.jpg)
+![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_stock_fluctuations_during_JPMHC.jpg)
 
 
