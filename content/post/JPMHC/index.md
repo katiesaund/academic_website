@@ -23,7 +23,7 @@ projects: []
 ---
 ## What is JPMHC? What does it have to do with biotech stocks?  
 
-The J. P. Morgan Healthcare Conference is an annual get together of pharma and biotech bigwigs in San Francisco, CA. During JPMHC week 2019 (#JPMHC2019) I wondered how much of an impact this conference has on healthcare stock values. It's considered common knowledge that stocks change in response to the speeches, deals, and data presented at the meeting. I've found some sources that attempt to quantify the impact of the meeting on stocks (see below), but I wanted to (a) evaluate the data myself, (b) work with financial data for the first time in R, and (c) practice using tidyverse approaches.
+The J. P. Morgan Healthcare Conference is an annual get together of pharma and biotech bigwigs in San Francisco, CA. During JPMHC week 2019 (#JPMHC2019) I wondered how much of an impact this conference has on healthcare stock values. It's considered common knowledge that stocks change in response to the speeches, deals, and data presented at the meeting. I've found some sources that attempt to quantify the impact of the meeting on stocks (see below), but I wanted to evaluate the data myself, work with financial data for the first time in R, and practice using tidyverse approaches.
 
 Here's a [source that tries to quantify the impact of JPM week on biotech stocks](https://www.cnbc.com/2017/01/04/betting-on-biotech-during-jpmorgans-big-health-care-conference-pays-off-history-shows.html). Quotes from the article include: 
 
