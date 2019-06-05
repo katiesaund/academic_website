@@ -39,25 +39,26 @@ The analysis presented in the accompanying [**R Code**](https://github.com/katie
 
 ## Conclusions: If JPMHC affects biotech stocks, its within the noise of the market
 
-![test](/img/2019-06-04_NYSE_vs_SP500.png)
-
 Try to insert image here: 
 
-![test](/img/2019-06-04_NYSE_vs_SP500.jpg)
+1
+![NYSE Biotech Index vs S&P500 Index](/img/2019-06-04_NYSE_vs_SP500.jpg)
+1
 
-or here
+2
+![NYSE Biotech Index vs S&P500 Index](www.katiesaund.com/post/jpmhc/img/2019-06-04_NASDAQ_vs_SP500.jpg)
+2
 
-{{< figure library="1" src="2019-06-04_NASDAQ_vs_SP500.jpg">}}
-{{< figure src="https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.png" >}}
-{{< figure src="https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg" >}}
+3
+![NYSE Biotech Index vs S&P500 Index](www.katiesaund.com/static/img/2019-06-04_NASDAQ_vs_SP500.jpg)
+3
 
-How about this: 
-![alternative text for search engines](/2019-06-04_NASDAQ_vs_SP500.jpg)
-![alternative text for search engines](/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg)
-![alternative text for search engines](/master/static/img/2019-06-04_NASDAQ_vs_SP500.jpg)
-![alternative text for search engines](https://github.com/katiesaund/academic_website/tree/master/content/post/JPMHC/2019-06-04_NASDAQ_vs_SP500.jpg)
+4
+![NYSE Biotech Index vs S&P500 Index](/static/img/2019-06-04_NYSE_vs_SP500.jpg)
+4
 
-Did the figure appear?
+5
+![NYSE Biotech Index vs S&P500 Index](/2019-06-04_NYSE_vs_SP500.jpg)
+5
 
 
-{{< figure src="/img/2019-06-04_NYSE_vs_SP500.png" class="img-lg">}}
