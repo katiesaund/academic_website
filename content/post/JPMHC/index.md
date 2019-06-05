@@ -1,5 +1,5 @@
 ---
-title: 'Healthcare's biggest conference plays insignificant role in affecting healthcare stock prices'
+title: "Healthcare's biggest conference plays insignificant role in affecting healthcare stock prices"
 subtitle: 'Evaluating the correlation between J.P. Morgan Healtcare Conference and healthcare stock prices'
 authors: ["Katie Saund"]
 tags: []
@@ -48,10 +48,9 @@ I downloaded historical stock prices for three indices: NYSE Biotech ("BTK"), NA
 Although the relative performance of biotech during JPMHC week is sometimes higher than the S&P500, this ratio is not consistently higher than what is observed the rest of the year.  
 
 ## Common knowledge says this conference impacts healthcare stocks, but it doesn't really 
-My analysis of the stock data contradicts my intution that was built upon the prevailing sentiment regarding the affect of JPMHC week on biotech stocks. The two hypotheses motivating this analysis have been overturned:  
+My analysis of the stock data contradicts my intution that was built upon the prevailing sentiment regarding the affect of JPMHC week on biotech stocks. The two hypotheses motivating this analysis have been overturned. Instead I found that: 
 
-1. ~~Healthcare stock prices tend to fluctuate more during JPM week than any other week in the same year.~~Definitely not.  
-2. ~~The biotech sector outperforms the S&P 500 during JPM week more often than is expected by chance.~~ Not true. 
+1. Healthcare stock prices do not fluctuate more during JPM week than any other week in the same year.
+2. The biotech sector does not outperform the S&P 500 during JPM week more often than is expected by chance.
 
-
-The analysis presented can be found in this [**RMarkdown**](https://github.com/katiesaund/JPM_Healthcare_2019/blob/master/2019-05-27_JPM_week.Rmd) and the data files can be downloaded from the [**git repo**](https://github.com/katiesaund/JPM_Healthcare_2019/blob/master/).
+The analysis & data presented can be found in this my [**git repository**](https://github.com/katiesaund/JPM_Healthcare_2019/).
