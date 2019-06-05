@@ -37,13 +37,24 @@ Given this, I hypothesized that:
 
 The analysis presented in the accompanying [**R Code**](https://github.com/katiesaund/JPM_Healthcare_2019/blob/master/2019-05-27_JPM_week.Rmd) preliminary. Advice from people familiar with analyzing finanical data is most welcome.
 
-## Conclusions: If JPMHC affects biotech stocks, its within the noise of the market
+## Analysis: 
+### Do healthcare stock prices tend to fluctuate more during JPM week than any other week in the same year?
 
-Try to insert image here: 
+I downloaded all of the NASDAQ and NYSE stock tickers and subset them to only include "Health Care" sector companies. For each of these healthcare stocks I downloaded historical prices from 1983 - 2017. Then I calculated the range in price for every week (maximum price minus minimum price) for each healthcare stock. I tabulated the number of weeks per year when the price range for the stock was smaller than price range the week of JPMHC. I looked at so many stocks that I needed to summarize the aggregate data in the following graph.
+  
+![Healthcare Sector Stock Fluctuations: JPMHC Week](img/2019-06-04_stock_fluctuations_during_JPMHC.jpg)
+  
+This isn't at all what I was expected. I hypothesized that for many stocks its price range during JPMHC week would be greater then its price range most other weeks of the year. My intuition was way off. The fluctuations in price during JPMHC week actually pretty small: from 1983 ~ 2013 JPMHC week stocks had less flucations than half the year! It's only been in the last few years that JPMHC week healthcare stock fluctuations have become larger and larger compared to the rest of the year. Perhaps this trend is due to increasing size and coverage of the conference?  
 
-![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NASDAQ_and_NYSE_biotech_indices.jpg)
-![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NASDAQ_vs_SP500.jpg)
+### Does the biotech sector outperform the S&P 500 during JPM week more often than is expected by chance?
+I downloaded historical stock prices for three indices: NYSE Biotech ("BTK"), NASDAQ Biotech ("NBI"), and S&P500 ("SPY") from 2010-2018, which is a date range with data from all three indices.  
+
+The two biotech index stocks behave similarly over the date range.
+![NYSE Biotech Index vs NASDAQ Biotech Index](img/2019-06-04_NASDAQ_and_NYSE_biotech_indices.jpg)
+
+For each week in the year I got the performance of each index by calculating the index's weekly closing price by the weekly opening price. Then I found the relative performance of the S&P500 versus the biotech indices by diving the biotech index performance by the S&P500 index performance. Below I plotted this metric of relative performance by year. I've highlighted JPMHC week in red. Though the relative performance of the biotech index during JPMHC week is sometimes higher than the S&P500 index, it's clearly nothing special (and not statistically significantly different).  
+![NASDAQ Biotech Index vs S&P500 Index](img/2019-06-04_NASDAQ_vs_SP500.jpg) 
 ![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NYSE_vs_SP500.jpg)
-![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_stock_fluctuations_during_JPMHC.jpg)
 
-
+## My Conclusions: If JPMHC affects biotech stocks, its within the noise of the market. 
+My analysis of the stock data contradicts my intution that was built upon the prevailing sentiment regarding the affect of JPMHC week on biotech stocks. As with most of my analyses, I'm left with more questiosn: what assumptions are baked into my model and how should I validate them? I made some simplifcations for this analsis, were they jusitified? Do I need to redefine my definitions of flucation and performance? How did my approach different from the article that inspired me? 
