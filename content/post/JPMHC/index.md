@@ -41,10 +41,6 @@ The analysis presented in the accompanying [**R Code**](https://github.com/katie
 
 Try to insert image here: 
 
-
-![NYSE Biotech Index vs S&P500 Index](/img/2019-06-04_NYSE_vs_SP500.jpg)
-
-
 ![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NASDAQ_and_NYSE_biotech_indices.jpg)
 ![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NASDAQ_vs_SP500.jpg)
 ![NYSE Biotech Index vs S&P500 Index](img/2019-06-04_NYSE_vs_SP500.jpg)
