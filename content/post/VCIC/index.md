@@ -28,6 +28,8 @@ The [Venture Capital Investment Competition](https://www.vcic.org/) is the “wo
 
 In the competition each university team hears pitches from three businesses and drafts a term sheet for the most promising venture. In February 2019 I traveled with my talented teammates from the University of Michigan's Ross School of Business to participate in a regional competition at UT Austin’s McCombs School of Business. 
 
+![UT Austin McCombs School of Business](img/UT_Austin_business_school.jpg)
+
 ## Due diligence dash
 A day and a half before we met the founders we were sent each company's slide decks. This was our first information of any kind about the businesses to be considered. Our team started reading everything we could find relevant to the three companies. All the companies were quite different (stage/funding, sector, technology, etc...). 
 
@@ -53,11 +55,13 @@ Our last task of the competition was to convince our firm's "partners" that we h
 The only truly negative part of this experience was the dissonance between the constraints of the competition and the reality of investing. A VC fund has to hold companies up to extrememe scrunity because only very few companies can fit a fund's requirements for returning the investors' money. While I liked all of the companies we saw, none were a truly good fit for the VC fund profile we were working from. Every time the judges asked a question that pointed out an issue in our investment size / valuation etc... all I wanted to say was "Hey, I wouldn't invest in this company if this was real money -- this company is too late (or too early) for this fund. Maybe I'd recommend them to an angel I know or fund that focuses on Series C and later investments." But I didn't feel that was appropriate-- I felt that I had to double down on the fantasy of the competition. Now I wonder how the judges might have reacted to breaking the illusion? 
 
 ## A heartbreaking loss
-Our main piece of negative feedback was that our deal was "too Silicon Valley" (I suppose this means speculative? risky?). 
+We did not take home the win. The winning team, Vanderbilt, went on to compete at the global competition in April, but it was Georgetown University that took home the gold. Go Hilltoppers! 
 
-## Many thanks! 
-The VCIC is the fruit of labor of many volunteers. I thank the Austin cohort: the hosts (students, staff, and professors) at UT Austin who helped us to feel at home in the business school, the founders who spent half a day pitching and sitting in meetings, the judges. I thank our sponsor and mentor Anne Perigo, the Associate Director of the Zell Lurie Institute at Ross mentors in Ann Arbor. I thank the Mikes (Mike Johnson and Michael Godwin) who spent many hours teaching the basics of VC to the team. ZLI staff who made the internal competition and travel possible. 
+Our main piece of negative feedback was that our deal was "too Silicon Valley." I suppose this means too speculative or risky? We weren't wearing hoodies or jeans, so I don't think our dress code was the problem. 
 
-Also, I had such a great team to work with. I was the only non-MBA on the team, but I couldn't have felt more welcome and supported. Thanks to Rin, Joe, Becca, Jill, and David. We look pretty good in a corner office! 
+## So many people to thank! 
+The VCIC is the fruit of labor of many volunteers. I thank the Austin cohort: the hosts (students, staff, and professors) at UT Austin who helped us to feel at home in the business school, the founders who spent half a day pitching and sitting in meetings, and the judges. I thank our sponsor and mentor Anne Perigo, who is the Associate Director of the Zell Lurie Institute at Ross. I thank the Mikes (Mike Johnson and Michael Godwin) who spent many hours teaching the basics of VC to the team. Thank you to the ZLI staff who made the internal competition back in November and travel to Texas possible. 
+
+Finally, I was very lucky to work with an **amazing** team. These folks are all fantastically talented. I was the only non-MBA on the team, but I couldn't have felt more welcome and supported. Thank you to Rin, Joe, Becca, Jill, and David! We look pretty good in a corner office, don't you think?
 
 ![Hickory Partners](img/Hickory_Partners.jpg)
