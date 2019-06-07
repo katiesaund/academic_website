@@ -55,4 +55,9 @@ The only truly negative part of this experience was the dissonance between the c
 ## A heartbreaking loss
 Our main piece of negative feedback was that our deal was "too Silicon Valley" (I suppose this means speculative? risky?). 
 
-## Thanks to the team & our mentors in Ann Arbor 
+## Many thanks! 
+The VCIC is the fruit of labor of many volunteers. I thank the Austin cohort: the hosts (students, staff, and professors) at UT Austin who helped us to feel at home in the business school, the founders who spent half a day pitching and sitting in meetings, the judges. I thank our sponsor and mentor Anne Perigo, the Associate Director of the Zell Lurie Institute at Ross mentors in Ann Arbor. I thank the Mikes (Mike Johnson and Michael Godwin) who spent many hours teaching the basics of VC to the team. ZLI staff who made the internal competition and travel possible. 
+
+Also, I had such a great team to work with. I was the only non-MBA on the team, but I couldn't have felt more welcome and supported. Thanks to Rin, Joe, Becca, Jill, and David. We look pretty good in a corner office! 
+
+![Hickory Partners](img/Hickory_Partners.jpg)
