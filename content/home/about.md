@@ -12,6 +12,7 @@ weight = 5
   interests = [
     "bacteria",
     "genomics",
+    "data analysis/viz",
     "R programming", 
     "biotech", 
     "venture capital", 
