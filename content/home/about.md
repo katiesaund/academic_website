@@ -10,10 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "microbiology",
+    "bacteria",
     "genomics",
-    "phylogenetics", 
-    "R"
+    "R programming", 
+    "biotech", 
+    "venture capital", 
   ]
 
 # List your qualifications (such as academic degrees).
@@ -31,4 +32,6 @@ weight = 5
 
 # Biography
 
-I'm a PhD candidate in the Snitkin Lab at the University of Michigan. My research interests include bacterial genomics and phylogenetics, with a focus on *C. difficile.* I wrote a software package to perform bacterial genome-wide association studies. When I'm not in lab I'm probably at UM's Ross School of Business helping out at the Wolverine Venture Fund. 
+I'm a PhD candidate in the Snitkin Lab at the University of Michigan. My thesis research focuses on the genomics and evolution of the bacterial species *C. difficile.* For my thesis I wrote a software package to perform bacterial genome-wide association studies. 
+
+When I'm not in lab I'm probably at UM's Ross School of Business helping out at the Wolverine Venture Fund or olympic weightlifting. 
