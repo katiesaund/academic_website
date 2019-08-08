@@ -264,6 +264,11 @@ enableGitInfo = false
      icon = "cv"
      icon_pack = "ai"
      link = "files/cv.pdf"
+     
+  [[params.social]]
+     icon = "orcid"
+     icon_pack = "ai"
+     link = "https://orcid.org/0000-0002-6214-6713"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
