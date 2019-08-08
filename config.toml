@@ -269,6 +269,11 @@ enableGitInfo = false
      icon = "orcid"
      icon_pack = "ai"
      link = "https://orcid.org/0000-0002-6214-6713"
+     
+   [[params.social]]
+     icon = "google-scholar"
+     icon_pack = "ai"
+     linke = "https://scholar.google.com/citations?user=DLF0X1UAAAAJ&hl=en&authuser=1"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
