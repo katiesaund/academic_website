@@ -268,7 +268,7 @@ enableGitInfo = false
    [[params.social]]
      icon = "google-scholar"
      icon_pack = "ai"
-     linke = "https://scholar.google.com/citations?user=DLF0X1UAAAAJ"
+     link = "https://scholar.google.com/citations?user=DLF0X1UAAAAJ"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
