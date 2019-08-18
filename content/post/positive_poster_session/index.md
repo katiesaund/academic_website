@@ -77,3 +77,5 @@ Always be selling. Invite people to your poster session. Be specific. Tell them 
 
 ### Good luck at your upcoming poster session!
 
+If you're feeling anxious about presenting you poster read my essay on [Strategies to Address Poster Session Fears.](https://katiesaund.com/post/poster_fears/)
+
