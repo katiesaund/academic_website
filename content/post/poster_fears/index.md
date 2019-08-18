@@ -30,7 +30,8 @@ You are presenting work that isn’t yet published so there will be gaps in your
 
 * **Strategy** Lean into the gaps. Ask people for their suggestions. A benefit of traveling to a conference is getting a new perspective on how to finish up an analysis.   
 
-* **Strategy** Remember that people expect posters to be unfinished work. You are not the only person with an unresolved analysis. Poster sessions are not dissertation defenses. Keep the small scope of a poster in the forefront of your mind.
+* **Strategy** Remember that people expect posters to be unfinished work. You are not the only person with an unresolved analysis. Poster sessions are not dissertation defenses. Keep the small scope of a poster in the forefront of your mind.  
+
 ## Fear 2: The data are wrong and I won’t know until after the conference. 
 In many fields posters are supposed to feature research in progress. That means that after the conference, upon more data exploration or reading, you may decide to ditch one method for another. You may add more tests to your code that reveals previously hidden bugs. How embarrassing!  
 
@@ -91,7 +92,7 @@ Some people have a hard time explaining their science or getting others to care.
 ## Fear 1: Getting harassed at your poster. 
 Many people get harassed at conferences. There are innumerable reports of assault, bigotry, ableism, racism or sexism (you name it) perpetuated at scientific conferences. Conferences are a recipe for disaster: people facing systemic power imbalances at events that occur in unfamiliar places, often at night with alcohol. 
 
-If you have any resources you can want me to link here, please send it to me([contact info](https://katiesaund.com/#contact)). I am speaking without experience on this particular subject and could not find any poster session specific resources.   
+If you have any resources you can want me to link here, please share it with me ([contact info](https://katiesaund.com/#contact)) and I'll post it. I am speaking without experience on this particular subject and could not find any poster session specific resources.   
 
 * **Strategy** Have an advocate nearby you can bring in to disrupt or diffuse the situation. A formal example of this is at astronomy meetings where there is a group called [“Astronomy Allies”](http://www.astronomyallies.com/Astronomy_Allies/Welcome.html) that you can text if you need people to come support you in a hostile situation.  
 
