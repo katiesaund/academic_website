@@ -92,7 +92,7 @@ Some people have a hard time explaining their science or getting others to care.
 ## Fear 1: Getting harassed at your poster. 
 Many people get harassed at conferences. There are innumerable reports of assault, bigotry, ableism, racism or sexism (you name it) perpetuated at scientific conferences. Conferences are a recipe for disaster: people facing systemic power imbalances at events that occur in unfamiliar places, often at night with alcohol. 
 
-If you have any resources you can want me to link here, please share it with me ([contact info](https://katiesaund.com/#contact)) and I'll post it. I am speaking without experience on this particular subject and could not find any poster session specific resources.   
+If you have any resources you want me to link here, please share it with me ([contact info](https://katiesaund.com/#contact)) and I'll post it. I am speaking without experience on this particular subject and could not find any poster session specific resources.   
 
 * **Strategy** Have an advocate nearby you can bring in to disrupt or diffuse the situation. A formal example of this is at astronomy meetings where there is a group called [“Astronomy Allies”](http://www.astronomyallies.com/Astronomy_Allies/Welcome.html) that you can text if you need people to come support you in a hostile situation.  
 
