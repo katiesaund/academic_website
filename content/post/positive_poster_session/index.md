@@ -22,10 +22,10 @@ image: []
 projects: []
 ---
 
-Presenting your research at a poster session is a learned skilled. If you find it hard the first time don't panic, you just need some pratice and a little help. I used to get a stomache ache just thinking about presenting at a poster session. Now I look forward to them and leave more energized about my research. Here are the steps I've taken to improve my poster session experiences:
+Presenting your research at a poster session is a learned skilled. If you find it hard the first time don't panic, you just need some practice and a little help. I used to get a stomach ache just thinking about presenting at a poster session. Now I look forward to them and leave more energized about my research. Here are the steps I took to improve my poster session experience.
 
 ## Find the best conference you can.
-The most proactive step you can take to have an enjoyable poster session is to take the time to choose the best conference for you, your research topic, and your goals. The best conference for you will have lots of attendees with similar research interests to yours. Sometimes this means finding a small, niche conference on your subfield rather than going to an amorphous, mega-sized conference. 
+The most proactive step you can take to have an enjoyable poster session is to take the time to choose the best conference for you, your research topic, and your goals. The best conference for you will have many attendees with research interests similar to yours. A small, niche conference in your subfield may have more researchers in your area (meaning more traffic to your poster) than an amorphous, mega-sized conference. 
 
 ## Customize your conversation to the other person’s interests.
 It is a waste of time to use the same research pitch on every visitor to your poster. Take the first minute to introduce yourself and to get to know the person who has stopped by your poster. Specifically, ask what interest the person has in your poster. 
@@ -38,13 +38,13 @@ Ask about their level of background knowledge.
 * “Do you also study *C. difficile* genomics?” 
 * “How closely related is your own research?” 
 
-These questions yield higher quality discussions. The answers to these questions let you save time by avoiding background explanations when chatting with a subject area expert or to avoid bogging down the conversation with bioinformatics jargon to someone new to programming. 
+These questions yield higher quality discussions. The answers to these questions let you save time by avoiding background explanations when chatting with a subject area expert or to avoid bogging down the conversation with jargon to someone new to the field. 
 
 ## Bring a notepad and paper.
 
-* **Jot down suggestions.** I’ve been given great ideas for methods to apply to my projects by helpful poster visitors and have been glad to have pen/paper to write on. Sure, I could just tap it into my phone, but that can look rude. More practically, it’s extremely annoying to deal with my phone autocorrecting biology abbreviations and software package names.  
+* **Jot down suggestions.** I’ve been given great ideas for methods to apply to my projects by helpful poster visitors and have been glad to have pen/paper to write on. Sure, I could just tap ideas into my phone, but that can look rude. More practically, it’s extremely annoying to deal with my phone autocorrecting biology abbreviations and software package names.  
 * **Collect contact info.** You remembered to bring a card, but not everyone will.
-* **Draw a concept.** Drawing a concept can quickly eliminate confusion that may arise in a conversation with someone from a different research background or when your coversations isn't getting anywhere. If you look around during the poster session you’ll see lots of scientists gesturing animatedly about their research with their hands. Explaining with your hands can work, but sometimes a piece of paper is the best tool for the job.  
+* **Draw a concept.** Drawing a concept can quickly eliminate confusion that may arise in a conversation with someone from a different research background or when your conversations isn't getting anywhere. If you look around during the poster session you’ll see lots of scientists gesturing animatedly about their research with their hands. Explaining with your hands can work, but sometimes a piece of paper is the best tool for the job.  
 
 ## Pin some business cards to your board. 
 People will want to get in touch. Yes, business cards are an expense that not everyone’s work will cover, but they make staying in touch with your new buddies much easier. 
