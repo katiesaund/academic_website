@@ -22,6 +22,8 @@ image: []
 projects: []
 ---
 
+![ASMMicrobe](img/ASM_Microbe_poster.jpg)  
+
 Presenting your research at a poster session is a learned skilled. If you find it hard the first time don't panic, you just need some practice and a little help. I used to get a stomach ache just thinking about presenting at a poster session. Now I look forward to them and leave more energized about my research. Here are the steps I took to improve my poster session experience.
 
 ## Find the best conference you can.
