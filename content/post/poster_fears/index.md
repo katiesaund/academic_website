@@ -35,7 +35,8 @@ You are presenting work that isn’t yet published so there will be gaps in your
 ## Fear 2: The data are wrong and I won’t know until after the conference. 
 In many fields posters are supposed to feature research in progress. That means that after the conference, upon more data exploration or reading, you may decide to ditch one method for another. You may add more tests to your code that reveals previously hidden bugs. How embarrassing!  
 
-* **Strategy** No one at a poster session is promising that their data are perfect so don’t hold yourself to that standard. Bugs are hard to find. Choosing the most appropriate method for your analysis is non-trivial. In fact, presenting at the conference may help you identify a more appropriate method. 
+* **Strategy** No one at a poster session is promising that their data are perfect so don’t hold yourself to that standard. Bugs are hard to find. Choosing the most appropriate method for your analysis is non-trivial. In fact, presenting at the conference may help you identify a more appropriate method.   
+
 ## Fear 3: The data are wrong and someone will tell me at the session.  
 
 * **Strategy** Change your frame of mind. It’s much better to catch a mistake or incorporate a suggestion from a poster visitor PRIOR to paper submission. Embrace the mess and focus on getting helpful feedback during the session. If people wanted to see only finished work they would only read articles and would avoid the poster session.  
