@@ -1,11 +1,11 @@
 ---
-title: "Learning Maps: Locations in The Dresden Files"
+title: "Using Maps in R: Tutorial with locations from The Dresden Files"
 subtitle: []
 authors: ["Katie Saund"]
 tags: []
 categories: []
-date: "2019-09-013T00:00:00Z"
-lastmod: "2019-09-13T00:00:00Z"
+date: "2019-09-012T00:00:00Z"
+lastmod: "2019-09-12T00:00:00Z"
 featured: false
 draft: false
 
@@ -36,12 +36,15 @@ I cleaned up my data into a tibble and added some information about the book in 
 ## Plotting the locations by their order of appearance  
      
 First I plotted as many of the Chicago locations from Books 1-15 + *Side Jobs* + *Brief Cases* that I could assemble. Each image in the animation adds locations from each book, sequentially. We can see how much more rich the Chicago environment beomes with each new adventure.  
+![Dresden Files Locations by Book](img/including_book_maps_animation.gif) 
 
 ## Red Court vs. White Council  
 I've recently been listening to the audiobook for Changes so the war between the Red Court and the White Counil is fresh in my mind. Here I have some of their relevant locations by faction. White Council locations include HQ in Edinborough, Camp Kaboom, and Archangel. For the Red Court I focused on just Chichen Itza and Casaverde; we're told they control much of South America but without any specifics listed in the novels I'll leave that to your imagination.    
+![Red Court and White Council Map](img/red_court_and_white_council.png) 
 
 ## Paranet  
 Finally, I've compiled all of the Paranet locations explicitly listed. For locations where only a state or country was mentioned rather than a specific city I simply assigned the location to the relevant capital. The Paranet is such a wonderful concept and I love everytime we get to meet new Netters. Hopefully. we get to hear about some more of the global paranet locations in the future. Where do you think will be next?  
+![Paranet Map](img/paranet_map.png) 
 
 Be sure to let me know about all of the locations I have forgotten to include. 
 
