@@ -135,7 +135,7 @@ Set up some things you'll need:
 # A color palette (one color per book) 
 col_palette <- dresden_palette("foolmoon", n = 3, type = "continuous")
 
-# A color Lake Michigan
+# A color for Lake Michigan
 lake_col <- dresden_palette("colddays", type = "discrete")[4]
 
 #  A map of the Chicago area
@@ -204,10 +204,12 @@ Finally, create a gif of all of your locations and then save them.
 
 ```
 image_animate(image_scale(maps), fps = 1, dispose = "previous")
+
+# Save
 maps_animation <- image_animate(image_scale(maps), 
                                 fps = 1,
                                 dispose = "previous")
-image_write(maps_animation, "maps_animation_just_three.gif")
+image_write(maps_animation, "maps_animation.gif")
 ```
 
 # Red Court vs. White Council  
