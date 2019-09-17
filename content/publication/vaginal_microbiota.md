@@ -62,7 +62,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "mouse_outbreak_figure.jpg"
+image = "bassis_figure.png"
 #caption = "Fig. 3. Phylogenetic relationship between the mouse outbreak strain and representative C. difficile isolates."
 
 +++
