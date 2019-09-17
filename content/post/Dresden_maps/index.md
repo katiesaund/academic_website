@@ -200,7 +200,7 @@ maps <- c(base_map,
           including_grave_peril_map)
 ```
 
-Finally, create a gif of all of your locations and then save them. 
+Last, create a gif of all of your locations and then save them. 
 
 ```
 image_animate(image_scale(maps), fps = 1, dispose = "previous")
@@ -213,11 +213,61 @@ image_write(maps_animation, "maps_animation.gif")
 ```
 
 # Red Court vs. White Council  
-I've recently been listening to the audiobook for Changes so the war between the Red Court and the White Counil is fresh in my mind. Here I have some of their relevant locations by faction. White Council locations include HQ in Edinborough, Camp Kaboom, and Archangel. For the Red Court I focused on just Chichen Itza and Casaverde; we're told they control much of South America but without any specifics listed in the novels I'll leave that to your imagination.    
+I've recently been listening to the audiobook for Changes so the war between the Red Court and the White Counil is fresh in my mind. Here I have some of their relevant locations by faction. White Council locations include HQ in Edinborough, Camp Kaboom, and Archangel. For the Red Court I focused on just Chichen Itza and Casaverde; we're told they control much of South America but without any specifics listed in the novels I'll leave that to your imagination.  
+
+```
+ocean_col <- dresden_palette("colddays", type = "discrete")[4]
+world_map <- borders("world", 
+                     fill = "white", 
+                     colour = "white", 
+                     bg = "light blue")
+dresden_locations %>% 
+  filter(Group %in% c("Red Court", "White Council")) %>% 
+  ggplot() + 
+  world_map + 
+  coord_fixed(xlim = c(-180, 180),  ylim = c(-75, 75), ratio = 1.3) + 
+  geom_point(aes(x = Long, y = Lat, color = Group, fill = Group), 
+             size = 2, 
+             alpha = 1, 
+             shape = 21) +
+  theme(panel.background = element_rect(fill = ocean_col, size = 0.0),
+        panel.border = element_rect(colour = "black", fill = NA, size = 2),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        text = element_blank(), 
+        axis.ticks = element_blank()) + 
+  theme(legend.position = "none") + 
+  scale_color_manual(values = c("black", "black")) + 
+  scale_fill_manual(values = c("red", "white"))
+  ```
+
 ![Red Court and White Council Map](img/red_court_and_white_council.png) 
 
 # The Paranet  
 Finally, I've compiled all of the Paranet locations explicitly listed. For locations where only a state or country was mentioned rather than a specific city I simply assigned the location to the relevant capital. The Paranet is such a wonderful concept and I love everytime we get to meet new Netters. Hopefully. we get to hear about some more of the global paranet locations in the future. Where do you think will be next?  
+```
+ocean_col <- dresden_palette("colddays", type = "discrete")[4]
+col_pal <- dresden_palette("briefcases", n = 17, type = "continuous")
+paranet_col <- col_pal[4]
+dresden_locations %>% 
+  filter(Group == "Paranet") %>% 
+  ggplot() + 
+  world_map + 
+  coord_fixed(xlim = c(-65, -167),  ylim = c(19, 60), ratio = 1.3) + 
+  geom_point(aes(x = Long, y = Lat), 
+             size = 2, 
+             color = "black", 
+             fill = paranet_col,
+             alpha = 1, 
+             shape = 21) +
+  theme(panel.background = element_rect(fill = ocean_col),
+        panel.border = element_rect(colour = "black", fill = NA, size = 2),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        text = element_blank(), 
+        axis.ticks = element_blank())
+```
+
 ![Paranet Map](img/paranet_map.png) 
 
 Be sure to let me know about all of the locations I have forgotten to include. 
