@@ -51,12 +51,80 @@ geocode("Chicago, Illinois")
 Now that we can get locations, we can get to plotting on maps! 
 
 
-I cleaned up my data into a tibble and added some information about the book in which the location first appears and if there is a character or group particularly associated with the location.
+I cleaned up my data into a tibble and added some information about the book in which the location first appears and if there is a character or group particularly associated with the location. Here's what some of my data looks like: 
+
+```
+> head(dresden_locations)
+# A tibble: 6 x 6
+  Name                                     First_Appearance Character     Group   Lat  Long
+  <chr>                                    <chr>            <chr>         <chr> <dbl> <dbl>
+1 Burnham Harbor, Chicago                  Death Masks      Thomas Wraith NA     41.9 -87.6
+2 Chicago Botanic Gardens                  Cold Days        Summer Lady   NA     42.1 -87.8
+3 Cook County Hospital, Chicago            Fool Moon        NA            NA     41.9 -87.7
+4 Field Museum of Natural History, Chicago Dead Beat        NA            NA     41.9 -87.6
+5 Carbon & Carbide Building, Chicago       Skin Game        NA            NA     37.4 -94.8
+6 Graceland Cemetery, Chicago              Grave Peril      NA            NA     42.0 -87.7
+```
+
+Other tools you may want to plot this data: 
+
+```
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+A [color palette I made](https://github.com/katiesaund/DresdenColor) based on the very same book series: 
+```
+install.packages("devtools")
+devtools::install_github("katiesaund/DresdenColor")
+library(DresdenColor)
+```
+
+## The most basic of maps
+First things first, let's make a map of all of the data! 
+
+```
+world_map <- borders("world", 
+                       fill = "white", 
+                       colour = "white", 
+                       bg = "light blue")
+  
+dresden_locations %>% 
+    select(Lat, Long) %>% 
+    filter(!is.na(Lat)) %>%
+    ggplot() + 
+    world_map + 
+    coord_fixed(1.3) + 
+    geom_point(aes(x = Long, y = Lat), 
+               size = 1.5, 
+               color = "black", 
+               fill = dresden_palette("skingame", type = "discrete")[4],
+               alpha = 1, 
+               shape = 21) +
+    theme(panel.background = 
+            element_rect(fill = dresden_palette("colddays", 
+                                                type = "discrete")[4], 
+                         size = 0.0),
+          panel.border = element_rect(colour = "black", fill = NA, size = 2),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          text = element_blank(), 
+          axis.ticks = element_blank())
+```
+
+This code yields a plot of every Dresden Files location: 
+![All Dresden Files Locations](img/all_locations.png) 
+
+If you didn't know it already, this map makes is pretty clear that The Dresden Files are set in the Midwest. This map is fine, but it doesn't clue us into much else about the marvelous world created by Jim Butcher. 
 
 ## Plotting the locations by their order of appearance  
-     
-First I plotted as many of the Chicago locations from Books 1-15 + *Side Jobs* + *Brief Cases* that I could assemble. Each image in the animation adds locations from each book, sequentially. We can see how much more rich the Chicago environment beomes with each new adventure.  
+Next, I plotted as many of the Chicago locations from Books 1-15 + *Side Jobs* + *Brief Cases* that I could assemble. Each image in the animation adds locations from each book, sequentially. We can see how much more rich the Chicago environment beomes with each new adventure.  
 ![Dresden Files Locations by Book](img/including_book_maps_animation.gif) 
+
+To make the gif I first made a map for Book 1 (Storm Front), saved it. Then I made a second map for locations from books 1 and 2 (Storm Front & Fool Moon). I continued until I had all of the locations included on the final map. Then I saved the individual pictures into a gif. 
+
+Here's an outline for how to build it yourself: 
+
 
 ## Red Court vs. White Council  
 I've recently been listening to the audiobook for Changes so the war between the Red Court and the White Counil is fresh in my mind. Here I have some of their relevant locations by faction. White Council locations include HQ in Edinborough, Camp Kaboom, and Archangel. For the Red Court I focused on just Chichen Itza and Casaverde; we're told they control much of South America but without any specifics listed in the novels I'll leave that to your imagination.    
