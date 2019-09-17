@@ -33,6 +33,6 @@ weight = 5
 
 # Biography
 
-I'm a PhD candidate in the Snitkin Lab at the University of Michigan. My thesis research focuses on the genomics and evolution of the bacterial species *C. difficile.* For my thesis I wrote a software package to perform bacterial genome-wide association studies. 
+I'm a PhD candidate in the Snitkin Lab at the University of Michigan. My thesis research focuses on the genomics and evolution of the bacterial species *C. difficile.* For my thesis I wrote a software package to perform bacterial genome-wide association studies called [hogwash](https://github.com/katiesaund/hogwash). 
 
-When I'm not in lab I'm probably at UM's Ross School of Business helping out at the Wolverine Venture Fund or olympic weightlifting. 
+When I'm not in lab I'm probably at UM's Ross School of Business helping out at the [Wolverine Venture Fund](http://zli.umich.edu/wolverine-venture-fund) or olympic weightlifting. 
