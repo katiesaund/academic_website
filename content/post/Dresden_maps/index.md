@@ -52,9 +52,12 @@ geocode("Chicago, Illinois")
 Now that we can get locations, we can get to plotting on maps! 
 
 
-I cleaned up my data into a tibble and added some information about the book in which the location first appears and if there is a character or group particularly associated with the location. Here's what some of my data looks like: 
+I cleaned up my data into a tibble and added some information about the book in which the location first appears and if there is a character or group particularly associated with the location. [To download the data, go to my github repo](https://github.com/katiesaund/dresden_maps). Here's what some of my data looks like: 
 
 ```
+> install.packages("tidyverse")
+> library(tidyverse)
+> dresden_locations <- read_tsv("Dresden_Files_locations.tsv")
 > head(dresden_locations)
 # A tibble: 6 x 6
   Name                                     First_Appearance Character     Group   Lat  Long
@@ -67,13 +70,9 @@ I cleaned up my data into a tibble and added some information about the book in 
 6 Graceland Cemetery, Chicago              Grave Peril      NA            NA     42.0 -87.7
 ```
 
-Other tools you may want to plot this data: 
+Two other tools you may want to plot this data: 
 
 ```
-# Easily subset data, for example to just particular books or groups
-install.packages("tidyverse")
-library(tidyverse)
-
 # Create a .gif of sequential maps
 install.packages("magick")
 library(magick) 
