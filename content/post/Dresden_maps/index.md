@@ -22,6 +22,7 @@ image: []
 projects: []
 ---
 # Locations in The Dresden Files
+The Dresden Files are an amazing, silly fantasy series about magic in modern day Chicago. This tutorial will walk through how to makes maps in R using locations from The Dresden Files.
 
 ## Getting location data
 I had a ton of fun clicking around this [interactive map](https://www.google.com/maps/d/u/0/viewer?mid=1EVEViVHIuS8nXzhz66b7rEwwRqo&hl=en_US&ll=41.88792118153663%2C-87.69842410058595&z=9
@@ -221,4 +222,13 @@ Finally, I've compiled all of the Paranet locations explicitly listed. For locat
 ![Paranet Map](img/paranet_map.png) 
 
 Be sure to let me know about all of the locations I have forgotten to include. 
+
+Info on my R and package versions: 
+```
+R version 3.6.1 (2019-07-05)
+magick_2.2             
+DresdenColor_0.0.0.9000 
+tidyverse_1.2.1         
+ggmap_3.0.0      
+```
 
