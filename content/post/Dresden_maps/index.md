@@ -273,6 +273,7 @@ dresden_locations %>%
 Be sure to let me know about all of the locations I have forgotten to include. 
 
 Info on my R and package versions: 
+  
 ```
 R version 3.6.1 (2019-07-05)
 magick_2.2             
