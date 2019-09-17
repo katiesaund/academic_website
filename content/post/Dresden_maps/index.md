@@ -69,11 +69,16 @@ I cleaned up my data into a tibble and added some information about the book in 
 Other tools you may want to plot this data: 
 
 ```
+# Easily subset data, for example to just particular books or groups
 install.packages("tidyverse")
 library(tidyverse)
+
+# Create a .gif of sequential maps
+install.packages("magick")
+library(magick) 
 ```
 
-A [color palette I made](https://github.com/katiesaund/DresdenColor) based on the very same book series: 
+Consider using a [color palette I made](https://github.com/katiesaund/DresdenColor) based on this very same book series: 
 ```
 install.packages("devtools")
 devtools::install_github("katiesaund/DresdenColor")
@@ -81,7 +86,7 @@ library(DresdenColor)
 ```
 
 ## The most basic of maps
-First things first, let's make a map of all of the data! 
+Let's make a map of all of the data! 
 
 ```
 world_map <- borders("world", 
@@ -117,20 +122,99 @@ This code yields a plot of every Dresden Files location:
 
 If you didn't know it already, this map makes is pretty clear that The Dresden Files are set in the Midwest. This map is fine, but it doesn't clue us into much else about the marvelous world created by Jim Butcher. 
 
-## Plotting the locations by their order of appearance  
+# Plotting the locations by their order of appearance  
 Next, I plotted as many of the Chicago locations from Books 1-15 + *Side Jobs* + *Brief Cases* that I could assemble. Each image in the animation adds locations from each book, sequentially. We can see how much more rich the Chicago environment beomes with each new adventure.  
 ![Dresden Files Locations by Book](img/including_book_maps_animation.gif) 
 
 To make the gif I first made a map for Book 1 (Storm Front), saved it. Then I made a second map for locations from books 1 and 2 (Storm Front & Fool Moon). I continued until I had all of the locations included on the final map. Then I saved the individual pictures into a gif. 
 
-Here's an outline for how to build it yourself: 
+### Here's an outline for how to build it yourself, using code for just the first three books: 
 
+Set up some things you'll need:
+```
+# A color palette (one color per book) 
+col_palette <- dresden_palette("foolmoon", n = 3, type = "continuous")
 
-## Red Court vs. White Council  
+# A color Lake Michigan
+lake_col <- dresden_palette("colddays", type = "discrete")[4]
+
+#  A map of the Chicago area
+state_map <- map_data("state", region = "illinois")
+base_map <-  ggplot() + 
+  geom_polygon(data = state_map,
+               aes(x = long, y = lat), 
+               fill = "white",
+               color = "white") + 
+  coord_fixed(xlim = c(-88.25, -87.565),  
+              ylim = c(41.70, 42.25),
+              ratio = 1.3) + 
+  theme(panel.background = element_rect(fill = lake_col),
+        panel.border = element_rect(colour = "black", fill = NA, size = 2),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        text = element_blank(), 
+        axis.ticks = element_blank())
+ggsave("base_map.png")
+```
+
+Then you'll need to subset to the locations in each book, then create a "geom_point" for each book. 
+```
+StF_loc <- dresden_locations %>% filter(First_Appearance == "Storm Front")
+FM_loc <- dresden_locations %>% filter(First_Appearance == "Fool Moon")
+GP_loc <- dresden_locations %>% filter(First_Appearance == "Grave Peril")
+
+create_geom_point_for_book <- function(book_locations, color){
+  temp <- geom_point(data = book_locations, 
+                     aes(x = Long, y = Lat), 
+                     size = 3, 
+                     fill = color,
+                     alpha = 0.5, 
+                     shape = 21)
+  return(temp)
+}
+
+storm_front_geom <- create_geom_point_for_book(StF_loc, col_pal[1])
+fool_moon_geom <- create_geom_point_for_book(FM_loc, col_pal[2])
+grave_peril_geom <- create_geom_point_for_book(GP_loc, col_pal[3])
+```
+
+Now create a map including all of the locations previous to and including the current book: 
+```
+including_storm_front_map <- base_map + storm_front_geom
+ggsave("including_storm_front_map.png")
+including_fool_moon_map <-  including_storm_front_map + fool_moon_geom
+ggsave("including_fool_moon_map.png")
+including_grave_peril_map <- including_fool_moon_map + grave_peril_geom
+ggsave("including_grave_peril_map.png")
+```
+To get the animation to work correctly you need to have saved each of you maps, then read them back into R using `magick::image_read().`
+
+```
+base_map <- image_read(path = "base_map.png")
+including_storm_front_map <- image_read(path = "including_storm_front_map.png")
+including_fool_moon_map <- image_read(path = "including_fool_moon_map.png")
+including_grave_peril_map <- image_read(path = "including_grave_peril_map.png")
+maps <- c(base_map, 
+          including_storm_front_map,
+          including_fool_moon_map, 
+          including_grave_peril_map)
+```
+
+Finally, create a gif of all of your locations and then save them. 
+
+```
+image_animate(image_scale(maps), fps = 1, dispose = "previous")
+maps_animation <- image_animate(image_scale(maps), 
+                                fps = 1,
+                                dispose = "previous")
+image_write(maps_animation, "maps_animation_just_three.gif")
+```
+
+# Red Court vs. White Council  
 I've recently been listening to the audiobook for Changes so the war between the Red Court and the White Counil is fresh in my mind. Here I have some of their relevant locations by faction. White Council locations include HQ in Edinborough, Camp Kaboom, and Archangel. For the Red Court I focused on just Chichen Itza and Casaverde; we're told they control much of South America but without any specifics listed in the novels I'll leave that to your imagination.    
 ![Red Court and White Council Map](img/red_court_and_white_council.png) 
 
-## Paranet  
+# The Paranet  
 Finally, I've compiled all of the Paranet locations explicitly listed. For locations where only a state or country was mentioned rather than a specific city I simply assigned the location to the relevant capital. The Paranet is such a wonderful concept and I love everytime we get to meet new Netters. Hopefully. we get to hear about some more of the global paranet locations in the future. Where do you think will be next?  
 ![Paranet Map](img/paranet_map.png) 
 
