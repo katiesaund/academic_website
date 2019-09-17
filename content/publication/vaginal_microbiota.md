@@ -28,7 +28,7 @@ abstract = "Background: Factors that influence vaginal microbiota composition, i
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = FALSE
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
