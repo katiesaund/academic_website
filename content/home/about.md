@@ -11,11 +11,11 @@ weight = 5
 [interests]
   interests = [
     "bacteria",
-    "genomics/WGS",
-    "data analysis/viz",
+    "genomics & WGS",
+    "data analysis & viz",
     "R & package development", 
     "biotech", 
-    "investing / venture capital", 
+    "investing & venture capital", 
   ]
 
 # List your qualifications (such as academic degrees).
