@@ -75,7 +75,7 @@ enableGitInfo = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "katiephd@umich.edu"
+  email = "katiemsaund@gmail.com"
   address = "Ann Arbor, MI 48109"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
@@ -236,7 +236,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:katiephd@umich.edu"
+    link = "mailto:katiemsaund@gmail.com"
 
   [[params.social]]
     icon = "twitter"
