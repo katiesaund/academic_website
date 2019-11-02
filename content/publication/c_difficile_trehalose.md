@@ -2,7 +2,7 @@
 title = "Evidence that vertical transmission of the vaginal microbiota can persist into adolescence"
 
 # Date first published.
-date = "2019-11-1"
+date = "2019-11-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Katie Saund", "Krishna Rao", "Vincent B. Young", "Evan S. Snitkin"]
