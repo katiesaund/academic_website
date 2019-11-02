@@ -1,5 +1,5 @@
 +++
-title = "Genetic determinants of trehalose utilization are not associated with severe _Clostridium difficile_ infection"
+title = "Genetic determinants of trehalose utilization are not associated with severe Clostridium difficile infection"
 
 # Date first published.
 date = "2019-11-01"
