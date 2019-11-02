@@ -1,5 +1,5 @@
 +++
-title = "Evidence that vertical transmission of the vaginal microbiota can persist into adolescence"
+title = "Genetic determinants of trehalose utilization are not associated with severe _Clostridium difficile_ infection"
 
 # Date first published.
 date = "2019-11-01"
