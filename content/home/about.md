@@ -33,10 +33,10 @@ weight = 5
 
 # Biography
 
-I'm a PhD candidate in the Snitkin Lab at the University of Michigan. My thesis research focuses on the genomics of the bacterial species *C. difficile.* To support my genomic analyses I wrote a software package to perform bacterial genome-wide association studies called [hogwash](https://github.com/katiesaund/hogwash). My degree is in Microbiology & Immunology, but I use computational biology approaches and bioinformatics tools to conduct my research. 
+I'm a PhD candidate in the Snitkin Lab at the University of Michigan. I use computational biology approaches and bioinformatics tools to conduct my research. My thesis research focuses on the genomics of the bacterial species *C. difficile.* To support my genomic analyses I wrote a software package to perform bacterial genome-wide association studies called [hogwash](https://github.com/katiesaund/hogwash). 
 
-If I'm not in lab I'm probably at UM's Ross School of Business helping out at the [Wolverine Venture Fund](http://zli.umich.edu/wolverine-venture-fund) or olympic weightlifting. 
+If I'm not in lab I'm probably at UM's Ross School of Business helping out at the [Wolverine Venture Fund](http://zli.umich.edu/wolverine-venture-fund), quilting, or roller skating. 
 
-I'm currently looking for a biotech internship in the Bay Area for summer 2020. 
+I'm currently applying for computational biology internships the Bay Area for summer 2020. 
 
 
