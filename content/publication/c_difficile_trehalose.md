@@ -39,7 +39,7 @@ projects = []
 # Links (optional).
 url_pdf = "files/2019_c_difficile_trehalose_preprint.pdf"
 url_preprint = "https://www.medrxiv.org/content/10.1101/19008342v1"
-url_code = ""
+url_code = "https://github.com/katiesaund/clinical_cdifficile_trehalose_variants"
 url_dataset = ""
 url_project = ""
 url_slides = ""

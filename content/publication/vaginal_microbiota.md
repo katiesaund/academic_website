@@ -39,7 +39,7 @@ projects = []
 # Links (optional).
 url_pdf = "files/bassis_et_al.pdf"
 url_preprint = "https://www.biorxiv.org/content/10.1101/768598v1"
-url_code = ""
+url_code = "https://github.com/cbassis/MotherDaughter_Vaginal_Microbiota.study"
 url_dataset = ""
 url_project = ""
 url_slides = ""
