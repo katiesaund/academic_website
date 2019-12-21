@@ -5,7 +5,7 @@ title = "prewas: Data pre-processing for more informative bacterial GWAS"
 date = "2019-12-20"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Katie Saund*", "Zena Lapp*", "Stephanie N. Thiede*", "Ali Pirani", "Evan S. Snitkin", "*Equal Contribution"]
+authors = ["Katie Saund/*", "Zena Lapp/*", "Stephanie N. Thiede/*", "Ali Pirani", "Evan S. Snitkin", "/*Equal Contribution"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
