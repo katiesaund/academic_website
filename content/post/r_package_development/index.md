@@ -34,9 +34,10 @@ What follows are the issues that I ran into that these two resources didn't addr
 R devel is the version of R currently under development. In January 2020, the release version of R was 3.6.2 and the development version of R was 4.0. The development version of R is relevant to package development and submission because the package must pass the `CHECK` on R devel without `ERRORs` or `WARNINGs`. Naive R programmer that I was, I assumed my code was robust and would therefore work on 3.5 (where it was developed), 3.6.2 (what I'm currently working with), and on 4.0. Boy, was I wrong! 
 
 ### 1A) How to know if you code passes CHECK on R devel
-I used `devtools::check_win_devel()` to test if my package passed the `CHECK` on R devel. This function tests the package on a windows server and emails you the results in ~15-30 minutes. I got my results back and learned that I had something like ~30 failed unit tests on 4.0 despite a perfect record on 3.6.2. Finding this out left me with the big question: "What do I do now?" I decided to download 4.0 and troubleshoot on my local computer because I coudln't make sense of the `CHECK` results.
+I used `devtools::check_win_devel()` to test if my package passed the `CHECK` on R devel. This function tests the package on a windows server and emails you the results in ~15-30 minutes. I got my results back and learned that I had something like ~30 failed unit tests on 4.0 despite a perfect record on 3.6.2. Finding this out left me with the big question: "What do I do now?" I decided to download 4.0 and troubleshoot on my local computer because I coudln't make sense of the `CHECK` results.  
 
-### Skip to 2) if your code passed `CHECK` on R devel
+Skip to 2) if your code passed `CHECK` on R devel  
+  
 ### 1B) Getting R devel on my mac
 I installed R devel on my mac (and reinstalled R release for good measure so I'd know they both go to the same location):
 
