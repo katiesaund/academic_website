@@ -1,5 +1,5 @@
 ---
-title: "Solving Issues to Sumbit Your R Package to CRAN"
+title: "Solving Issues to Submit Your R Package to CRAN"
 subtitle: []
 authors: ["Katie Saund"]
 tags: []
