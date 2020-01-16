@@ -41,13 +41,14 @@ I used `devtools::check_win_devel()` to test if my package passed the `CHECK` on
 I installed R devel on my mac (and reinstalled R release for good measure so I'd know they both go to the same location):
 
 * [Download devel and current release tarballs](http://mac.r-project.org/)
-* Install them from the terminal
-```
-> cd /
-> tar -xvzf /path/to/R-release-name.tar.gz 
-> tar -xvzf /path/to/R-devel-name.tar.gz
-```
+* Install them from the terminal  
 
+```
+> cd /  
+> tar -xvzf /path/to/R-release-name.tar.gz  
+> tar -xvzf /path/to/R-devel-name.tar.gz  
+```
+  
 ### 1C) Switching between R devel and R release
 To access both R versions in RStudio and switch between them with ease I used the AMAZING program RSwitch.
 
@@ -57,19 +58,29 @@ To access both R versions in RStudio and switch between them with ease I used th
 ### 1D) Getting packages installed on R devel
 Install your package's dependencies. While most CRAN packages should install with no trouble on R devel, but I ran into several problems: 
 
-a) Using the wrong install.packages() type
-b) Packages that depended on fortran/C/C++ (ex: `ape`)
-c) Packages that didn't pass `CHECK` on R devel
+* Using the wrong install.packages() type  
+* Packages that depended on fortran/C/C++ (ex: `ape`)  
+* Packages that didn't pass `CHECK` on R devel  
+ 
+Using the wrong install.packages() type:  
+The most robust way to install R packages on R devel is 
+```
+install.packages("package_name", type = "both")  
+``` 
+because it looks for either source or binary installations (some packages only have one).  
+  
+Packages that depended on fortran/C/C++:  
+I had to install fortran and Xcode on my mac: 
 
-a) The most robust way to install R packages on R devel is `install.packages("package_name", type = "both")` because it looks for either source or binary installations (some packages only have one). Adding `type = "both"` saved me some trouble.
+* Xcode is available to download from the Apple store. Once it was installed I ran 
+``` 
+sudo xcodebuild -license  
+``` 
+in terminal. 
+* [Fortran is available to download](https://github.com/fxcoudert/gfortran-for-macOS/releases)
 
-b) Packages that depended on fortran/C/C++:
-I had to install fortran and Xcode on my mac.   
-Xcode is available to download from the Apple store. Once it was installed I ran ``` sudo xcodebuild -license``` in terminal. 
-[Fortran is available to download](https://github.com/fxcoudert/gfortran-for-macOS/releases)
 
-
-c) Packages that don't pass `CHECK` on R devel:  
+Packages that don't pass `CHECK` on R devel:   
 For prewas() dependencies that didn't pass `CHECK` on R devel I simply rewrote my package's code so as to no longer depend on the bum packages. Luckily for me, the changes were minor and I was done in less than ten minutes.  
 
 ### 1E) Resolving my test failures in R devel 
@@ -104,40 +115,42 @@ There are three ways to authenticate with git:
 3. https + PAT 
 
 I've loved using ssh, but `devtools::release()` wasn't playing nicely with ssh so I switched to https + PAT. To generate a PAT I used 
-```usethis::browse_github_token()```
-which took me to github where I generated the token. I immediately saved the token in two locations: my password manager and my .Renviron. To edit the .Renviron: 
 ```
-usethis::edit_r_environ()
+usethis::browse_github_token()  
+```
+which took me to github where I generated the token. I immediately saved the token in two locations: my password manager and my .Renviron. To edit the .Renviron:  
+```
+usethis::edit_r_environ()  
 ``` 
-which opens the .Renviron file and I copied in 
+which opens the .Renviron file and I copied in  
 ```
-GITHUB_PAT=my_really_long_numerical_token
+GITHUB_PAT=my_really_long_numerical_token  
 
 ``` 
-Notice that there is a empty new line in the file- I'm told this is necessary. Then I restarted R and checked that the PAT saved 
+Notice that there is a empty new line in the file- I'm told this is necessary. Then I restarted R and checked that the PAT saved  
 ```
-Sys.getenv("GITHUB_PAT")
+Sys.getenv("GITHUB_PAT") . 
 ``` 
-### 2B) Switching from ssh to https + PAT
-I also changed from ssh to https on the terminal. This is what it looks like when you're set up with ssh:
+### 2B) Switching from ssh to https + PAT  
+I also changed from ssh to https on the terminal. This is what it looks like when you're set up with ssh:  
 ```
-$ git remote -v
-> origin  git@github.com:user/repo.git (fetch)
-> origin  git@github.com:user/repo.git (push)
+$ git remote -v  
+> origin  git@github.com:user/repo.git (fetch)  
+> origin  git@github.com:user/repo.git (push)  
 ```
-To change to https:
+To change to https:  
 ```
-$ git remote set-url origin https://github.com/user/repo.git
+$ git remote set-url origin https://github.com/user/repo.git  
 ```
-Then check that it worked:
+Then check that it worked:  
 ```
-$ git remote -v
-> origin  https://github.com/user/repo.git (fetch)
-> origin  https://github.com/user/repo.git (push)
+$ git remote -v  
+> origin  https://github.com/user/repo.git (fetch)  
+> origin  https://github.com/user/repo.git (push)  
 ```
-After I made those two changes I could pass the github section of `devtools::release()`. 
-
-Good luck on your package submission!
+After I made those two changes I could pass the github section of `devtools::release()`.   
+  
+Good luck on your package submission!  
 
 
 
