@@ -31,12 +31,12 @@ There are many resources that spell most of what you need to know to submit a pa
 What follows are the issues that I ran into that these two resources didn't address.
 
 ## Issue 1: Working on R devel
-R devel is the version of R currently under development. As of January 2020, the release version of R was 3.6.2 and the development version of R was 4.0. The development version of R is relevant to package development and submission because the package must pass the CHECK on R devel without ERRORs or WARNINGs. Naive programmer that I was, I assumed my code was robust and would work on 3.5 (where it was developed), 3.6.2 (what I'm currently working with), and on 4.0. Boy, was I wrong! 
+R devel is the version of R currently under development. As of January 2020, the release version of R was 3.6.2 and the development version of R was 4.0. The development version of R is relevant to package development and submission because the package must pass the `CHECK` on R devel without `ERRORs` or `WARNINGs`. Naive programmer that I was, I assumed my code was robust and would work on 3.5 (where it was developed), 3.6.2 (what I'm currently working with), and on 4.0. Boy, was I wrong! 
 
 ### 1A) How to know if you code passes CHECK on R devel
 I used `devtools::check_win_devel()` to test if my package passed the `CHECK` on R devel. This function tests the package on a windows server and emails you the results in ~15-30 minutes. I got my results back and learned that I had something like ~30 failed unit tests on 4.0 despite a perfect record on 3.6.2. Finding this out left me with the big question: "What do I do now?"
 
-### CONTINUE WITH THE 1B - 1E IF YOUR CODE DIDN'T PASS CHECK ON R DEVEL
+### Skip to 2) if your code passed `CHECK` on R devel
 ### 1B) Getting R devel on my mac
 I installed R devel on my mac (and reinstalled R release for good measure so I'd know they both go to the same location):
 
@@ -52,7 +52,7 @@ I installed R devel on my mac (and reinstalled R release for good measure so I'd
 To access both R versions in RStudio and switch between them with ease I used the AMAZING program RSwitch.
 
 * [Download RSwitch](https://rud.is/rswitch/)
-* Use RSwitch to open RStudio -- and use it to select R devel. 
+* Use RSwitch to open RStudio and use it to select R devel. 
 
 ### 1D) Getting packages installed on R devel
 Install your package's dependencies. While most CRAN packages should install with no trouble on R devel, but I ran into several problems: 
@@ -72,8 +72,8 @@ Xcode is available to download from the Apple store. Once it was installed I ran
 Packages that don't pass `CHECK` on R devel:  
 For the package prewas() depended on that didn't pass CHECK on R devel I simply rewrote my package's code so as to no longer depend on the bum package. It was very lucky for me that I could do this in <10 minutes.
 
-### 1E) Resolving test failures in R devel 
-The errors were caused by a change to 4.0 that broke several functions and unit tests.
+### 1E) Resolving my test failures in R devel 
+The errors in my package were caused by a change to 4.0 that broke several functions and unit tests.
 
 In 4.0 you cannot use: 
 ```
@@ -84,4 +84,34 @@ Instead you should use
 if (methods::is(r_object, "class_name")  {}
 ```
 [This is a wonderful post](https://developer.r-project.org/Blog/public/2019/11/09/when-you-think-class.-think-again/index.html) that brought this to my attention and explains the why behind the change. 
+Once I fixed those problems and I just had a couple minor unit test tweaks to make to get my code to pass `CHECK` on both R release and R devel. 
+
+## Issue 2: Git 
+### 2A) Getting a personal access token (PAT)
+There are three ways to authenticate with git: 
+
+1. ssh  
+2. https + username + password
+3. https + PAT 
+
+I've loved using ssh, but `devtools::release()` wasn't playing nicely with ssh so I switched to https + PAT. To generate a PAT I used `usethis::browse_github_token()` which took me to github where I generated the token. I immediately saved the token in two locations: my password manager and my .Renviron. To edit the .Renviron I typed ```usethis::edit_r_environ()``` which opens the .Renviron file and I copied in ```GITHUB_PAT=my_really_long_numerical_token```. Then I restarted R and checked that it saved: ```Sys.getenv("GITHUB_PAT")```. 
+
+Next I changed from ssh to https on the terminal. This is what it looks like when you're set up with ssh:
+```
+$ git remote -v
+> origin  git@github.com:user/repo.git (fetch)
+> origin  git@github.com:user/repo.git (push)
+```
+To change to https:
+```
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+```
+Then check that it worked:
+```
+$ git remote -v
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+```
+After I made those two changes I could pass the github section of `devtools::release()`. 
+
 
