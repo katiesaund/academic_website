@@ -71,14 +71,27 @@ install.packages("package_name", type = "both")
 because it looks for either source or binary installations (some packages only have one).  
   
 Packages that depended on fortran/C/C++:  
-I had to install fortran and Xcode on my mac: 
+
+When I tried to install the package `ape` I got a long error message the end of which is below  
+```
+ld: warning: directory not found for option '-L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin15/6.1.0'  
+ld: warning: directory not found for option '-L/usr/local/gfortran/lib'  
+ld: library not found for -lgfortran  
+clang: error: linker command failed with exit code 1 (use -v to see invocation)  
+make: *** [ape.so] Error 1  
+ERROR: compilation failed for package ‘ape’ 
+removing ‘/Library/Frameworks/R.framework/Versions/4.0/Resources/library/ape’  
+Warning in install.packages :  
+  installation of package ‘ape’ had non-zero exit status . 
+```
+This error message meant that I needed to install fortran and Xcode on my mac .
 
 * Xcode is available to download from the Apple store. Once it was installed I ran 
 ``` 
 sudo xcodebuild -license  
 ``` 
-in terminal. 
-* [Fortran is available to download](https://github.com/fxcoudert/gfortran-for-macOS/releases)
+in terminal.  
+* [Fortran is available to download](https://github.com/fxcoudert/gfortran-for-macOS/releases)  
 
 
 Packages that don't pass `CHECK` on R devel:   
