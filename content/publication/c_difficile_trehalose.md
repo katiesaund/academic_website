@@ -1,8 +1,8 @@
 +++
-title = "Genetic determinants of trehalose utilization are not associated with severe Clostridium difficile infection"
+title = "Genetic Determinants of Trehalose Utilization Are Not Associated With Severe Clostridium difficile Infection Outcome"
 
 # Date first published.
-date = "2019-11-01"
+date = "2020-01-04"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Katie Saund", "Krishna Rao", "Vincent B. Young", "Evan S. Snitkin"]
@@ -18,11 +18,11 @@ authors = ["Katie Saund", "Krishna Rao", "Vincent B. Young", "Evan S. Snitkin"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "medrxiv"
-publication_short = "medrxiv"
+publication = "Open Forum Infectious Diseases"
+publication_short = "OFID"
 
 # Abstract and optional shortened version.
-abstract = "In a case-control study of patients with _C. difficile_ infection we found no statistically significant association between the presence of trehalose utilization variants in infecting _C. difficile_ strains and development of severe infection. These results do not support trehalose utilization conferring enhanced virulence in the context of human _C. difficile_ infections."
+abstract = "In a case–control study of patients with _Clostridium difficile_ infection, we found no statistically significant association between the presence of trehalose utilization variants in infecting _C. difficile_ strains and development of severe infection outcome. These results do not support trehalose utilization conferring enhanced virulence in the context of human _C. difficile_ infections."
 
 # Featured image thumbnail (optional)
 image_preview = ""
