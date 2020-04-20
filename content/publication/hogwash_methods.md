@@ -45,7 +45,7 @@ url_project = "https://github.com/katiesaund/simulate_data_for_convergence_based
 url_slides = ""
 url_video = ""
 url_poster = ""
-# url_source = "https://msphere.asm.org/content/4/2/e00138-19"
+url_source = ""
 # links = [{icon_pack="fa", icon="file", name="PDF", url="files/mouse_outbreak.pdf"}]
 
 # Custom links (optional).
