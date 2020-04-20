@@ -38,14 +38,14 @@ projects = []
 
 # Links (optional).
 url_pdf = "files/2020_OFID.pdf"
-url_preprint = "https://www.medrxiv.org/content/10.1101/19008342v1"
+url_preprint = ""
 url_code = "https://github.com/katiesaund/clinical_cdifficile_trehalose_variants"
 url_dataset = ""
-url_project = ""
+url_project = "https://academic.oup.com/ofid/article/7/1/ofz548/5696590"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://academic.oup.com/ofid/article/7/1/ofz548/5696590"
+url_source = ""
 # links = [{icon_pack="fa", icon="file", name="PDF", url="files/mouse_outbreak.pdf"}]
 
 # Custom links (optional).
