@@ -2,7 +2,7 @@
 title = "prewas: Data pre-processing for more informative bacterial GWAS"
 
 # Date first published.
-date = "2019-12-20"
+date = "2020-04-20"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Katie Saund<sup>1</sup>", "Zena Lapp<sup>1</sup>", "Stephanie N. Thiede<sup>1</sup>", "Ali Pirani", "Evan S. Snitkin", "<sup>1</sup>Equal Contribution"]
@@ -37,8 +37,8 @@ selected = false
 projects = []
 
 # Links (optional).
-url_pdf = "files/2019_prewas_preprint.pdf"
-url_preprint = "https://www.biorxiv.org/content/10.1101/2019.12.20.873158v1.full.pdf"
+url_pdf = "files/2020_prewas_mgen.pdf"
+url_preprint = ""
 url_code = "https://github.com/Snitkin-Lab-Umich/prewas"
 url_dataset = ""
 url_project = "https://github.com/Snitkin-Lab-Umich/prewas_manuscript_analysis"
