@@ -21,9 +21,16 @@ publication_types = ["2"]
 publication = "biorxiv"
 publication_short = "biorxiv"
 
-# Abstract and optional shortened version.
-abstract = "Background: Factors that influence vaginal microbiota composition, including its source, are not well understood. To determine if vaginal microbiota transmission from mother to daughter at birth influences the human vaginal microbiota composition in adolescence, we investigated the relationship between the vaginal microbiota of 13 mother/daughter pairs and the daughter's birth mode. Results: Based on analysis of bacterial 16S rRNA gene sequences, the vaginal microbiotas of mother/daughter pairs were more similar to each other if the daughter was born by vaginal delivery rather than by C-section. Additionally, genome sequences from an important member of the vaginal microbiota, Lactobacillus crispatus, isolated from one mother/daughter pair in which the daughter was born by vaginal delivery, were highly similar. Conclusions: Both community-level analysis and isolate genome sequence analysis provide evidence of birth-mode dependent transmission and persistence of at least some members of the vaginal microbiota."
+# Abstract
+abstrate = "Background The composition of the human vaginal microbiota is related to many aspects of health from infection susceptibility to preterm birth. Factors that influence human vaginal microbiota composition, including its source, are not well understood.
 
+Objective The goal of this study was to determine if vaginal microbiota transmission from mother to daughter at birth influences the human vaginal microbiota composition in adolescence.
+
+Study Design Weekly vaginal swab samples from 13 adolescents and their mothers were collected for up to 4 weeks. After DNA was isolated from the swabs, the V4 region of the bacterial 16S rRNA genes were amplified, sequenced and analyzed. We calculated distances between the bacterial communities in different samples to investigate the relationship between the vaginal microbiota of the mother/daughter pairs and the daughter’s birth mode. We also cultivated Lactobacillus crispatus from the mother and daughter of 1 pair. To investigate the possibility of direct transmission and persistence of one member of the vaginal microbiota, we isolated DNA from the L. crispatus isolates and compared their genomes with each other and other publicly available L. crispatus genome sequences.
+
+Results The vaginal microbiotas of mother/daughter pairs were more similar to each other if the daughter was born by vaginal delivery rather than by C-section. Additionally, genome sequences from an important member of the vaginal microbiota, L. crispatus, isolated from one mother/daughter pair in which the daughter was born by vaginal delivery, were highly similar.
+
+Conclusion Both community-level analysis and isolate genome sequence analysis are consistent with birth-mode dependent transmission and persistence of at least some members of the vaginal microbiota."
 # Featured image thumbnail (optional)
 image_preview = ""
 
@@ -37,8 +44,8 @@ selected = false
 projects = []
 
 # Links (optional).
-url_pdf = "files/bassis_et_al.pdf"
-url_preprint = "https://www.biorxiv.org/content/10.1101/768598v1"
+url_pdf = ""
+url_preprint = "https://www.biorxiv.org/content/10.1101/768598v2"
 url_code = "https://github.com/cbassis/MotherDaughter_Vaginal_Microbiota.study"
 url_dataset = ""
 url_project = ""
