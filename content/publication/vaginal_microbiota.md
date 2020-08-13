@@ -22,7 +22,7 @@ publication = "biorxiv"
 publication_short = "biorxiv"
 
 # Abstract
-abstrate = "Background The composition of the human vaginal microbiota is related to many aspects of health from infection susceptibility to preterm birth. Factors that influence human vaginal microbiota composition, including its source, are not well understood.
+abstract = "Background The composition of the human vaginal microbiota is related to many aspects of health from infection susceptibility to preterm birth. Factors that influence human vaginal microbiota composition, including its source, are not well understood.
 
 Objective The goal of this study was to determine if vaginal microbiota transmission from mother to daughter at birth influences the human vaginal microbiota composition in adolescence.
 
