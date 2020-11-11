@@ -11,9 +11,10 @@ weight = 5
 [interests]
   interests = [
     "computational biology",
-    "bacterial genomics",
+    "genomics",
     "GWAS",
     "infectious disease", 
+    "immuno-oncology",
     "data analysis & viz",
     "R package development", 
   ]
@@ -31,8 +32,13 @@ weight = 5
  
 +++
 
-# Biography
+# Hi, I'm Katie!
 
 I'm a postdoctoral research scientist in the Snitkin Lab at the University of Michigan. I completed my PhD in November 2020 in UM's Microbiology & Immunology Department. I use computational biology approaches and bioinformatics tools to conduct my research. My  research investigates the genomics of the bacterial pathogen *C. difficile.* To support my genomic analyses I contributed to the development of [prewas](https://github.com/Snitkin-Lab-Umich/prewas), a software package that preprocesses called SNPs prior to running bacterial genome-wide association studies (GWAS). I also wrote a software package to perform bacterial GWAS called [hogwash](https://github.com/katiesaund/hogwash). 
 
 I am currently seeking computational biology opportunities in biotech and pharma that are either remote or Bay Area-based.
+
+While in graduate school I interned with the Genetics and Pharmacogenomics Department at Merck. I analyzed mouse & human single-cell RNA sequencing data for early discovery oncology applications. 
+
+Between undergrad and my PhD I worked as a wet lab scientist performing research in a immuno-oncology lab in Seattle. While I stick to the dry lab now, I am comfortable with many lab techniques and enjoy collaborating with experimental biologists and clinicians. 
+
