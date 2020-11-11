@@ -10,23 +10,23 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "bacterial genomics & WGS",
-    "computational biology & bioinformatics",
-    "infection & epidemiology", 
-    "data analysis & visualization",
-    "R & package development", 
-    "biotech investing & venture capital", 
+    "computational biology",
+    "bacterial genomics",
+    "GWAS",
+    "infectious disease", 
+    "data analysis & viz",
+    "R package development", 
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD candidate"
+  course = "PhD in Microbiology & Immunology"
   institution = "University of Michigan"
-  year = 2015
+  year = 2020
 
 [[education.courses]]
   course = "BSc in Biology"
-  institution = "California Institute of Technology"
+  institution = "Caltech"
   year = 2012
  
 +++
