@@ -1,7 +1,7 @@
 +++
-title = "hogwash: Three Methods for Genome-Wide Association Studies in Bacteria"
+title = "Hogwash: three methods for genome-wide association studies in bacteria"
 
-date = "2020-11-218"
+date = "2020-11-18"
 authors = ["Katie Saund", "Evan S. Snitkin"]
 publication_types = ["2"]
 publication = "Microbial Genomics"
