@@ -18,8 +18,8 @@ authors = ["Katie Saund<sup>1</sup>", "Zena Lapp<sup>1</sup>", "Stephanie N. Thi
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "bioRxiv"
-publication_short = "bioRxiv"
+publication = "Microbial Genomics"
+publication_short = "Microbial Genomics"
 
 # Abstract and optional shortened version.
 abstract = "While variant identification pipelines are becoming increasingly standardized, less attention has been paid to the pre-processing of variants prior to their use in bacterial genome-wide association studies (bGWAS). Three nuances of variant pre-processing that impact downstream identification of genetic associations include the separation of variants at multiallelic sites, separation of variants in overlapping genes, and referencing of variants relative to ancestral alleles. Here we demonstrate the importance of these variant pre-processing steps on diverse bacterial genomic datasets and present prewas, an R package, that standardizes the pre-processing of multiallelic sites, overlapping genes, and reference alleles before bGWAS. This package facilitates improved reproducibility and interpretability of bGWAS results. Prewas enables users to extract maximal information from bGWAS by implementing multi-line representation for multiallelic sites and variants in overlapping genes. Prewas outputs a binary SNP matrix that can be used for SNP-based bGWAS and will prevent the masking of minor alleles during bGWAS analysis. The optional binary gene matrix output can be used for gene-based bGWAS which will enable users to maximize the power and evolutionary interpretability of their bGWAS studies. Prewas is available for download from GitHub."
