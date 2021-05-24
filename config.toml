@@ -67,16 +67,16 @@ enableGitInfo = false
 
   # Your details.
   name = "Katie Saund"
-  role = "Postdoc at Univeristy of Michigan"
+  role = "Computational Biologist"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Snitkin Lab", url = "http://thesnitkinlab.com/" } ]
+  organizations = [ { name = "Denali Therapeutics", url = "https://www.denalitherapeutics.com/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "katiemsaund@gmail.com"
-  address = "Ann Arbor, MI 48109"
+  address = "San Francisco, CA"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
   #skype = "echo123"
