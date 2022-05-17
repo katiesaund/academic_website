@@ -45,7 +45,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://journals.asm.org/doi/full/10.1128/msphere.00174-22?af=R"
+#url_source = "https://journals.asm.org/doi/full/10.1128/msphere.00174-22?af=R"
 # links = [{icon_pack="fa", icon="file", name="PDF", url="files/mouse_outbreak.pdf"}]
 
 # Custom links (optional).
