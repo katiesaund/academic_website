@@ -2,7 +2,7 @@
 title = "Strain Variation in Clostridioides difficile Cytotoxicity Associated with Genomic Variation at Both Pathogenic and Nonpathogenic Loci"
 
 # Date first published.
-date = "2021-12-09"
+date = "2022-05-09"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Katie Saund", "Ali Pirani", "D. Borden Lacy", "Philip C. Hanna", "Evan S. Snitkin"]
@@ -18,8 +18,8 @@ authors = ["Katie Saund", "Ali Pirani", "D. Borden Lacy", "Philip C. Hanna", "Ev
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "bioRxiv"
-publication_short = "bioRxiv"
+publication = "mSphere"
+publication_short = "mSphere"
 
 # Abstract and optional shortened version.
 abstract = "Clinical disease from Clostridioides difficile infection can be mediated by two toxins and their neighboring regulatory genes encoded within the five-gene pathogenicity locus (PaLoc). We provide several lines of evidence that the toxin activity of C. difficile may be modulated by genomic variants outside of the PaLoc. We used a phylogenetic tree-based approach to demonstrate discordance between toxin activity and PaLoc evolutionary history, an elastic net method to show the insufficiency of PaLoc variants alone to model toxin activity, and a convergence-based bacterial genome-wide association study (GWAS) to identify correlations between non-PaLoc loci with changes in toxin activity. Combined, these data support a model of C. difficile disease wherein toxin activity may be strongly affected by many non-PaLoc loci. Additionally, we characterize multiple other in vitro phenotypes relevant to human infections including germination and sporulation. These phenotypes vary greatly in their clonality, variability, convergence, and concordance with genomic variation. Lastly, we highlight the intersection of loci identified by GWAS for different phenotypes and clinical severity. This strategy to identify the overlapping loci can facilitate the identification of genetic variation linking phenotypic variation to clinical outcomes."
