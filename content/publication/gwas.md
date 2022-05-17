@@ -1,5 +1,5 @@
 +++
-title = "Strain variation in Clostridioides difficile toxin activity associated with genomic variation at both PaLoc and non-PaLoc loci"
+title = "Strain Variation in Clostridioides difficile Cytotoxicity Associated with Genomic Variation at Both Pathogenic and Nonpathogenic Loci"
 
 # Date first published.
 date = "2021-12-09"
