@@ -37,7 +37,7 @@ selected = false
 projects = []
 
 # Links (optional).
-url_pdf = "files/2021_gwas.pdf"
+url_pdf = "files/2022_msphere_cytotoxicity.pdf"
 url_preprint = ""
 url_code = "https://github.com/katiesaund/cdifficile_gwas"
 url_dataset = ""
