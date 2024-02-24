@@ -239,11 +239,6 @@ enableGitInfo = false
     link = "mailto:katiemsaund@gmail.com"
 
   [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/saund_katie"
-
-  [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/katiesaund"
