@@ -1,0 +1,29 @@
++++
+title = "Investigational eIF2B activator DNL343 modulates the integrated stress response in preclinical models of TDP-43 pathology and individuals with ALS in a randomized clinical trial"
+
+date = "2025-08-07"
+authors = ["Brittany N. Flores",
+"Seungyoon B. Yu", "Isaac V. Cohen", "Melania H. Fanok", "Wei Luan", "Romeo D. Maciuca", "Linus D. Sun", "Richard M. Tsai", "Maurits Vissers", "Lars Smits", "Tommy M. Bunte", "Anna Bakardjiev", "Srijana Balasundar", "Meredith E. K. Calvert", "Marcus Y. Chin", "Sarah K. Dobbins", "William E. Dowdle","Meng Fang", "Jules A. A. C. Heuberger", "Connie L. Ha", "Fen Huang", "Takashi Miyamoto", "Maksim Osipov", "Lidia Madrid San Martin", "Katie Saund", "David Tatarakis", "Anthony Q. Vu", C"henling Xiong", "Gene W. Yeo", "Geert Jan Groeneveld", "Leonard H. van den Berg", "Shyeilla Dhuria", "Anthony A. Estrada", "Danna Jennings", "Thomas Sandmann", "Carole Ho", "Kimberly Scearce-Levie", "Ernie Yulyaningsih", "Adam K. Walker", "Gilbert Di Paolo", "Lesley A. Kane", "Matthew D. Troyer", "Joseph W. Lewcock"]
+publication_types = ["2"]
+publication = "Nature Communications"
+publication_short = "Nature Communications"
+
+abstract = "Neuronal TDP-43 aggregates are a hallmark ALS pathology. The integrated stress response (ISR) occurs downstream of TDP-43 pathology and may promote neurodegeneration. Here we demonstrate that a CNS penetrant small molecule eIF2B activator inhibits the ISR in cellular models of ALS and the brain of an inducible mouse model of TDP-43 pathology, where it transiently slowed progression of locomotor deficits and neurodegeneration. ISR activation was observed in ALS patient spinal cord and CSF. The investigational drug DNL343 was advanced into Phase 1 and Phase 1b randomized, double-blind, placebo-controlled trials in healthy and ALS participants, respectively (NCT04268784/NCT05006352); the primary objective in both studies was to investigate the safety and tolerability DNL343. DNL343 demonstrated a half-life supporting once-daily dosing and showed extensive CSF distribution. DNL343 was generally well tolerated and reduced ISR biomarkers in peripheral blood mononuclear cells and CSF of ALS participants. Therefore, DNL343 is a useful investigational drug to explore the effects of ISR inhibition in ALS models and individuals with neurological diseases."
+image_preview = ""
+selected = false
+projects = []
+
+url_pdf = "files/2025_nat_comm.pdf"
+url_preprint = ""
+url_code = "https://zenodo.org/records/14041444"
+url_dataset = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+url_poster = ""
+url_source = "https://www.nature.com/articles/s41467-025-63031-y"
+links = []
+
+math = false
+highlight = true
++++
