@@ -30,7 +30,7 @@ weight = 5
 
 # Hi, I'm Katie!
 
-I'm a computational biologist taking a career break. I am open to discussing part-time consulting, but will not be returning to full time employment in the near term. 
+I'm a computational biologist taking a career break. I continue to review papers and am open to discussing part-time consulting, but I will not be returning to full time employment in the near term. 
 
 For several years I worked at Denali Therapeutics, a biotech developing therapies for neurodegenerative diseases. I worked with multi-omics datasets to validate biomarkers of disease progression, target engagement, and pathway modulation. These analyses were performed on data dervied from patient tissues, cell culture models, and animal models. My favorite project characterized alternative splicing in neurodegenerative diseases.
 
