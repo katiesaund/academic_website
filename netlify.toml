@@ -6,3 +6,6 @@
   HUGO_VERSION = "0.128.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+
+[template.environment]
+  GIT_SUBMODULES_RECURSE = "true"
